@@ -1,0 +1,14 @@
+body { font-size: 100%; }
+.logo img { width: 100px; }
+
+.coming-soon, .place  {
+  font-family: Palatino, 'Palatino Linotype', serif;
+}
+
+h2 { font-size: 3em; }
+h3 { font-size: 2em; }
+.wrapper {
+  text-align: center;
+  max-width: 50em;
+  margin: auto;
+}
