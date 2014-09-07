@@ -1,4 +1,8 @@
-body { font-size: 100%; }
+body {
+font-size: 100%;
+text-rendering: optimizeLegibility;
+font-variant-ligatures: common-ligatures;
+}
 .logo img { width: 100px; }
 
 .coming-soon, .place  {
@@ -7,8 +11,18 @@ body { font-size: 100%; }
 
 h2 { font-size: 3em; }
 h3 { font-size: 2em; }
+
 .wrapper {
   text-align: center;
   max-width: 50em;
   margin: auto;
+}
+
+.wf-active h3 {
+  font-family: 'abril-fatface', Palatino, 'Palatino Linotype', serif;
+  font-style: italic;
+}
+
+.wf-active h2 {
+  font-family: 'abril-fatface', Palatino, 'Palatino Linotype', serif;
 }
