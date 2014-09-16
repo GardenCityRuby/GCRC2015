@@ -1,8 +1,9 @@
 body {
-font-size: 100%;
-text-rendering: optimizeLegibility;
-font-variant-ligatures: common-ligatures;
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
 }
+
 .logo img { width: 100px; }
 
 .coming-soon, .place  {
