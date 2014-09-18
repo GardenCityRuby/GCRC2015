@@ -41,12 +41,7 @@ h3 { font-size: 2em; }
   overflow: hidden;
 }
 .coming-soon-container .gcrc-logo {
-<<<<<<< HEAD
   width: 30%;
-=======
-  width: 40%;
-  max-width: 400px;
->>>>>>> larger font; larger logo
   float: left;
   text-align: right;
 }
