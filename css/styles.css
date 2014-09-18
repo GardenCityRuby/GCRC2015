@@ -89,6 +89,9 @@ h3 { font-size: 2em; }
 .coming-soon-info-container .date strong {
   font-size: 1.5em;
 }
+.date strong {
+  font-size: 1.5em;
+}
 
 @media (max-width: 900px) {
   .coming-soon-container {
