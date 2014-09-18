@@ -26,3 +26,75 @@ h3 { font-size: 2em; }
 .wf-active h2 {
   font-family: 'abril-fatface', Palatino, 'Palatino Linotype', serif;
 }
+
+/* COMING SOON PAGE STYLING */
+.coming-soon-container {
+  width: 100%;
+  float: left;
+  margin-top: 7em; 
+}
+.coming-soon-container .gcrc-logo {
+  width: 40%;
+  max-width: 300px;
+  float: left;
+  text-align: right;
+  margin-bottom: 2em;
+}
+.coming-soon-container .gcrc-logo img {
+  width: 80%;
+}
+.coming-soon-info-container {
+  width: 60%;
+  max-width: 600px;
+  float: left;
+  padding-top: 14px;
+  font-family: 'PT Serif', 'serif';
+}
+.coming-soon-info-container h1 {
+  margin: 0;
+  font-size: 2em;
+}
+.coming-soon-info-container h3 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0 0 1.2em 0;
+  color: #888;
+}
+.coming-soon-info-container p {
+  margin: 0 0 1em 0;
+  color: #AAA;
+  font-weight: normal;
+}
+.coming-soon-info-container em {
+  color: #BBB;
+  font-size: 1em;
+}
+.coming-soon-info-container strong {
+  color: #888;
+}
+.coming-soon-info-container a {
+  color: #ED1B2B;
+  text-decoration: none;
+  -webkit-transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out;
+  -ms-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+.coming-soon-info-container a:hover {
+  color: rgba(161, 43, 50, 0.4);
+}
+
+@media (max-width: 600px) {
+  .coming-soon-container {
+    margin-top: 2em; 
+  }
+  .coming-soon-container .gcrc-logo {
+    width: 100%;
+    text-align: center;
+  }
+  .coming-soon-info-container {
+    width: 80%;
+    margin-left: 15%;
+  }
+}
