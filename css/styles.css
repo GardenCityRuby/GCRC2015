@@ -3,7 +3,14 @@ body {
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
   background-color: #FCFDFF;
+  font-family: 'pt-sans', 'PT Sans', Helvetica, Arial, sans-serif;
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'abril-fatface', Palatino, 'Palatino Linotype', serif;
+}
+
+.caption { font-size: 1em; }
 .logo img { width: 100px; }
 
 .coming-soon, .place  {
@@ -20,7 +27,6 @@ h3 { font-size: 2em; }
 }
 
 .wf-active h3 {
-  font-family: 'abril-fatface', Palatino, 'Palatino Linotype', serif;
   font-style: italic;
 }
 
@@ -30,26 +36,24 @@ h3 { font-size: 2em; }
 
 /* COMING SOON PAGE STYLING */
 .coming-soon-container {
-  width: 100%;
-  float: left;
-  margin-top: 7em;
+  max-width: 1000px;
+  margin: 7em auto 0;
+  overflow: hidden;
 }
 .coming-soon-container .gcrc-logo {
-  width: 40%;
-  max-width: 400px;
+  width: 30%;
   float: left;
   text-align: right;
-  margin-bottom: 2em;
 }
+
 .coming-soon-container .gcrc-logo img {
-  width: 80%;
+  width: 300px;
 }
 .coming-soon-info-container {
-  width: 60%;
-  max-width: 600px;
+  min-width: 600px;
+  margin-top: 38px;
+  width: 70%;
   float: left;
-  padding-top: 14px;
-  font-family: 'PT Serif', 'serif';
 }
 .coming-soon-info-container h1 {
   margin: 0;
@@ -63,7 +67,7 @@ h3 { font-size: 2em; }
 }
 .coming-soon-info-container p {
   margin: 0 0 1em 0;
-  color: #AAA;
+  color: #7a7a7a;
   font-weight: normal;
 }
 .coming-soon-info-container em {
@@ -83,16 +87,22 @@ h3 { font-size: 2em; }
   color: rgba(161, 43, 50, 0.4);
 }
 
-@media (max-width: 600px) {
+.date strong {
+  font-size: 1.5em;
+}
+
+@media (max-width: 900px) {
   .coming-soon-container {
     margin-top: 2em;
+    text-align: center;
   }
   .coming-soon-container .gcrc-logo {
     width: 100%;
     text-align: center;
   }
   .coming-soon-info-container {
-    width: 80%;
-    margin-left: 15%;
+    width: 100%;
+    text-align: center;
+    min-width: 100%;
   }
 }
