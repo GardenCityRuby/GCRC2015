@@ -1,8 +1,8 @@
 body {
-font-size: 100%;
-text-rendering: optimizeLegibility;
-font-variant-ligatures: common-ligatures;
-background-color: #FCFDFF;
+  font-size: 1.2em;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+  background-color: #FCFDFF;
 }
 .logo img { width: 100px; }
 
@@ -36,7 +36,7 @@ h3 { font-size: 2em; }
 }
 .coming-soon-container .gcrc-logo {
   width: 40%;
-  max-width: 300px;
+  max-width: 400px;
   float: left;
   text-align: right;
   margin-bottom: 2em;
