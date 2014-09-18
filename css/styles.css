@@ -2,6 +2,7 @@ body {
 font-size: 100%;
 text-rendering: optimizeLegibility;
 font-variant-ligatures: common-ligatures;
+background-color: #FCFDFF;
 }
 .logo img { width: 100px; }
 
@@ -68,9 +69,6 @@ h3 { font-size: 2em; }
 .coming-soon-info-container em {
   color: #BBB;
   font-size: 1em;
-}
-.coming-soon-info-container strong {
-  color: #888;
 }
 .coming-soon-info-container a {
   color: #ED1B2B;
