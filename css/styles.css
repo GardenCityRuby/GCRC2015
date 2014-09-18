@@ -86,8 +86,7 @@ h3 { font-size: 2em; }
 .coming-soon-info-container a:hover {
   color: rgba(161, 43, 50, 0.4);
 }
-
-.date strong {
+.coming-soon-info-container .date strong {
   font-size: 1.5em;
 }
 
