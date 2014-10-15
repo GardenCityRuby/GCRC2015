@@ -1,0 +1,10 @@
+name: Garden City Ruby Conference 2015
+description: Bangalore's own Ruby Conference is happening on Saturday, January 10th, 2015"><!-- Facebook-->
+url: http://gardencityruby.org/
+
+markdown: kramdown
+pygments: true
+
+kramdown:
+  parse_block_html: true
+  parse_span_html: true
