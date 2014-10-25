@@ -3,7 +3,6 @@ description: Bangalore's own Ruby Conference is happening on Saturday, January 1
 url: http://gardencityruby.org/
 
 markdown: kramdown
-pygments: true
 
 kramdown:
   parse_block_html: true
