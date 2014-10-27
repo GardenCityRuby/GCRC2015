@@ -74,7 +74,7 @@ h3 { font-size: 2em; }
   color: #BBB;
   font-size: 1em;
 }
-.coming-soon-info-container a {
+a {
   color: #ED1B2B;
   text-decoration: none;
   -webkit-transition: color 0.25s ease-in-out;
@@ -83,7 +83,7 @@ h3 { font-size: 2em; }
   -ms-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out;
 }
-.coming-soon-info-container a:hover {
+a:hover {
   color: rgba(161, 43, 50, 0.4);
 }
 .coming-soon-info-container .date strong {
@@ -105,3 +105,13 @@ h3 { font-size: 2em; }
     min-width: 100%;
   }
 }
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #ED1B2B;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+}
+

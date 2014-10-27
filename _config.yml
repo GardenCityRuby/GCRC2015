@@ -4,7 +4,6 @@ description: Bangalore's own Ruby Conference is happening on Saturday, January 1
 timezone:    Asia/Kolkata
 
 markdown: kramdown
-pygments: true
 
 kramdown:
   parse_block_html: true
