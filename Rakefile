@@ -7,7 +7,7 @@ namespace :deploy do
       system "git init"
       system "git remote add origin https://github.com/GardenCityRuby/GCRC2015.git"
       system "git add --all && git commit -m 'Updating staging'"
-      system "git push origin master:gh-pages"
+      system "git push --force origin master:gh-pages"
     end
   end
 end
