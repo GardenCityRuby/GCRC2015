@@ -1,6 +1,7 @@
 name: Garden City Ruby Conference 2015
 description: Bangalore's own Ruby Conference is happening on Saturday, January 10th, 2015"><!-- Facebook-->
-url: http://gardencityruby.org/
+#url: http://gardencityruby.org/
+timezone:    Asia/Kolkata
 
 markdown: kramdown
 pygments: true
@@ -8,3 +9,6 @@ pygments: true
 kramdown:
   parse_block_html: true
   parse_span_html: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gemfile", "Gemfile.lock", "post.template"]

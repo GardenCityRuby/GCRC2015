@@ -1,0 +1,11 @@
+node_modules
+.tmp
+.sass-cache
+app/bower_components
+.DS_Store
+/_site
+/_deploy
+.ruby-version
+.ruby-gemset
+*.swp
+*.swo
