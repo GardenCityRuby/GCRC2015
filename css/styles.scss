@@ -63,7 +63,7 @@ body {
   min-height: 580px;
   text-align: center;
   background-color: $brand-primary;
-  background: url('images/bg_hero.jpg');
+  background: url('../images/bg_hero.jpg');
   background-position: center;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -190,7 +190,7 @@ h2.section-title {
     display:block;
     min-height:400px;
     max-height:500px;
-    background: url('images/sample_map.jpg');
+    background: url('../images/sample_map.jpg');
     background-position: center;
   }
 }
