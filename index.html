@@ -1,83 +1,228 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-  <head>
-    <script type="text/javascript">
-      (function(d) {
-        var config = {
-          kitId: 'jts3fxj',
-          scriptTimeout: 3000
-        },
-          h = d.documentElement,
-          t = setTimeout(function() {
-            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-          }, config.scriptTimeout),
-          tk = d.createElement("script"),
-          f = false,
-          s = d.getElementsByTagName("script")[0],
-          a;
-        h.className += " wf-loading";
-        tk.src = '//use.typekit.net/' + config.kitId + '.js';
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function() {
-          a = this.readyState;
-          if (f || a && a != "complete" && a != "loaded") return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config)
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s)
-      })(document);
-    </script>
-    <title>
-      Garden City Ruby Conference 2015
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Bangalore's own Ruby Conference is happening on Saturday, January 10th, 2015"><!-- Facebook-->
-    <meta property="og:title" content="Garden City Ruby Conference">
-    <meta property="og:description" content="Bangalore's own Ruby Conference is happening on Saturday, January 10th, 2015">
-    <meta property="og:url" content="http://www.gardencityruby.org">
-    <meta property="og:site_name" content="Garden City Ruby Conference">
-    <meta property="og:image" content="http://www.gardencityruby.org/images/gcrc_2015_details.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="500">
-    <meta property="og:image:height" content="400"><!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@GardenCityRb">
-    <meta name="twitter:title" content="Garden City Ruby Conference">
-    <meta name="twitter:description" content="Bangalore's own Ruby Conference is happening on Saturday, January 10th, 2015">
-    <meta name="twitter:image:src" content="http://www.gardencityruby.org/images/gcrc_2015_details.jpg">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-  </head>
-  <body>
-    <div class="coming-soon-container">
-      <div class="gcrc-logo">
-        <img src="images/gcrc.png" alt="Garden City Ruby Conference">
+---
+layout: default
+---
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="/images/gcrc.png" alt="" class="nav-logo" /><span>Garden City <br>Ruby Conference</span></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#venue">Venue</a></li>
+        <li class="nav-register"><a href=""><span>Register</span></a></li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Garden City<br>Ruby Conference</h1>
+      <h2>January 10, 2015 - Bangalore</h2>
+      <p><a class="btn btn-default btn-lg" href="#" role="button">Register Now</a><a class="btn btn-default btn-lg" href="#" role="button">Propose a talk</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="container">
+    <h2 class="section-title">About</h2>
+    <p>Welcome to the Ruby Standard Library Documentation collection, brought to you by the Ruby-doc project. Whether you are browsing online or offline, we hope that your use of Ruby's standard library will become more productive as a result of this effort.</p>
+  </div>  
+</section>
+
+<!-- Speakers -->
+<section class="speakers" id="speakers">
+  <div class="container">
+    <h2 class="section-title">Speakers</h2>
+    <ul>
+      <li>
+        <img src="/images/sample_speaker_thumb.jpg" alt="" />
+        <div class="speaker-name">First Last</div>
+        <div class="speaker-twitter">@twtusername</div>
+      </li>
+      <li>
+        <img src="/images/sample_speaker_thumb.jpg" alt="" />
+        <div class="speaker-name">First Last</div>
+        <div class="speaker-twitter"><a href="#">@twtusername</a></div>
+      </li>
+      <li>
+        <img src="/images/sample_speaker_thumb.jpg" alt="" />
+        <div class="speaker-name">First Last</div>
+        <div class="speaker-twitter">@twtusername</div>
+      </li>
+      <li>
+        <img src="/images/sample_speaker_thumb.jpg" alt="" />
+        <div class="speaker-name">First Last</div>
+        <div class="speaker-twitter">@twtusername</div>
+      </li>
+      <li>
+        <img src="/images/sample_speaker_thumb.jpg" alt="" />
+        <div class="speaker-name">First Last</div>
+        <div class="speaker-twitter">@twtusername</div>
+      </li>
+      <li>
+        <img src="/images/sample_speaker_thumb.jpg" alt="" />
+        <div class="speaker-name">First Last</div>
+        <div class="speaker-twitter">@twtusername</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Sponsors -->
+<section class="sponsors" id="sponsors">
+  <div class="container">
+    <h2 class="section-title">Sponsors</h2>
+    <div class="sponsors-gold">
+      <h3>Gold</h3>
+      <ul>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="sponsors-silver">
+      <h3>Silver</h3>
+      <ul>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="sponsors-associate">
+      <h3>Associate plus</h3>
+      <ul>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/sample_sponsor.jpg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule -->
+<section class="schedule" id="schedule">
+  <div class="container">
+    <h2 class="section-title">Schedule</h2>
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <h3>Day 1</h3>
+        <table class="table  table-hover">
+          <thead><tr><th>Time</th><th>Program</th></tr></thead>
+          <tbody>
+            <tr><td>9:00 AM</td><td>Keynote</td></tr>
+            <tr><td>10:00 AM</td><td rowspan="2">Big Data, Hadoop and Piglet</td></tr>
+            <tr><td>11:00 AM</td></tr>
+            <tr><td>12:00 PM</td><td>Tea</td></tr>
+          </tbody>
+        </table>
       </div>
-      <div class="coming-soon-info-container">
-        <h1 itemprop="name">
-          Garden City Ruby Conference
-        </h1>
-        <p class='caption' itemprop="description">
-          Bangalore's own Ruby Conference
-        </p>
-        <p class='date'>
-          <strong>Saturday, January 10th, 2015</strong>
-        </p>
-        <p>
-          Ticket sale is open,  <a href="http://gcrc15.doattend.com" class='btn tickets'>Register!</a>
-        </p>
-        <p>
-          NEW! Our CFP is now open, <a href="http://cfp.gardencityruby.org/events/gcrc15">submit your talk proposal!</a>
-        </p>
-        <p>
-          Follow <a href="https://twitter.com/GardenCityRb">@GardenCityRb</a> on Twitter for further updates
-        </p>
-        <p>
-          If your company is willing to sponsor, please go through our <a href="sponsorship_brochure_2015.pdf">sponsorship prospectus</a>
-        </p>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <h3>Day 2</h3>
+        <table class="table  table-hover">
+          <thead><tr><th>Time</th><th>Program</th></tr></thead>
+          <tbody>
+            <tr><td>9:00 AM</td><td rowspan="2">Metaprogramming</td></tr>
+            <tr><td>10:00 AM</td></tr>
+            <tr><td>11:00 AM</td><td>Tea</td></tr>
+            <tr><td>12:00 PM</td><td>Ruby now and the future</td></tr>
+          </tbody>
+        </table>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+</section>
+
+<!-- Venue -->
+<section class="venue" id="venue">
+  <div class="container">
+    <h2 class="section-title">Venue</h2>
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-xs-12 location">
+        <h3>Location details</h3>
+        <address>
+          <strong>The Sheraton Bangalore</strong><br>
+          26/1 Dr. Rajkumar Road<br>
+          Malleshwaram - Rajajinagar, Bangalore<br>
+          Karnataka 560055
+        </address>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 contact">
+        <h3>Contact details</h3>
+        <address>
+          Email ID: <a href="mailto:first.last@example.com">first.last@example.com</a><br>
+          Contact Number: <a href="tel:+919999999999">999 999 9999</a>
+        </address>
+      </div>
+    </div> 
+  </div>
+  <a href="https://maps.google.com" class="map jumbotron">
+  </a>
+</section>
+
+<!-- footer -->
+<footer>
+  
+</footer>
