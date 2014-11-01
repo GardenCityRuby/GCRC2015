@@ -38,17 +38,19 @@ body {
     }
   }
 
-  & > li.nav-register {
-    a span {
-      padding:8px 15px;
-      border-radius:2px;
-      color: #fff;
-      background-color: $brand-primary;
-    }
-    a:hover span{
-      color: #FFF;
-      background-color: darken($brand-primary,10%);
-    }
+  .nav-register {
+    padding-top: 35px;
+  }
+}
+
+.btn-brand {
+  border-color: $brand-primary;
+  background-color: $brand-primary;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+    background-color: darken($brand-primary, 10%);
   }
 }
 
