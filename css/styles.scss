@@ -19,10 +19,13 @@ $table-bg-hover:                    $brand-primary !default;
 
 body {
   padding-top:100px;
+  font-family: 'PT Sans', 'Helvetica';
+  font-size: 100%;
 }
+
 .navbar-brand{
   padding: 15px;
-  
+
   img.nav-logo {
     max-width: 80px;
   }
@@ -44,7 +47,7 @@ body {
       font-weight: 300;
     }
   }
-  
+
   & > li.nav-register {
     a span {
       padding:8px 15px;
@@ -75,7 +78,7 @@ body {
   h1 {
     text-transform: uppercase;
   }
-  
+
   p {
     margin-top: 20px;
   }
@@ -113,20 +116,20 @@ h2.section-title {
       margin:auto;
       margin-right: 24px;
       margin-bottom:30px;
-      
+
       img {
         border: 2px solid #777;
         margin-bottom: 15px;
         max-width: 200px;
       }
-      
+
       .speaker-name {
         font-size: 20px;
         font-weight: 300;
         line-height: 24px;
         text-transform: uppercase;
       }
-      
+
       .speaker-twitter {
         font-size: 18px;
         font-weight: 300;
@@ -139,7 +142,7 @@ h2.section-title {
 .sponsors {
   ul {
     padding-left: 0px;
-    
+
     li {
       list-style: none;
       display: inline-block;
@@ -185,7 +188,7 @@ h2.section-title {
       font-weight: 400;
     }
   }
-  
+
   .map {
     display:block;
     min-height:400px;
