@@ -70,12 +70,13 @@ section {
   margin-top: 100px;
 
   .jumbotron {
-    background: url('../images/bg_hero.jpg');
+    background: url('../images/park.png') no-repeat;
     min-height:500px;
     text-align: center;
-    background-color: $brand-primary;
+    background-color: #d94152;
     padding-top: 90px;
-    padding-bottom: 90px;
+    background-position: bottom;
+    background-size: contain;
   }
 
   h1, h2 {
