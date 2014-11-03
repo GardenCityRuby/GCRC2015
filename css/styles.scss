@@ -35,7 +35,7 @@ section {
 }
 
 .navbar-brand{
-  padding: 15px;
+  margin-top: -20px;
 
   img.nav-logo {
     max-width: 80px;
@@ -43,7 +43,13 @@ section {
 }
 
 .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 450px;
+
   li {
+    text-align: center;
     a {
       font-size: 1em;
       font-weight: 300;
