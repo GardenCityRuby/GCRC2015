@@ -5288,12 +5288,12 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  font-family: 'PT Sans', 'Helvetica';
+  font-family: 'pt-sans', 'PT Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6; }
 
 h1, h2 {
-  font-family: 'Abril Fatface'; }
+  font-family: 'abril-fatface',' Abril Fatface', Palatino, 'Palatino Linotype', serif; }
 
 h1 {
   font-size: 2.5em; }
@@ -5355,29 +5355,17 @@ section {
 .section-title {
   font-weight: 300;
   margin-top: 30px;
-  margin-bottom: 10px; }
+  margin-bottom: 30px; }
 
-.speakers ul {
-  padding-left: 0px; }
-  .speakers ul li {
-    list-style: none;
-    display: inline-block;
-    margin: auto;
-    margin-right: 24px;
-    margin-bottom: 30px; }
-    .speakers ul li img {
-      border: 2px solid #777;
-      margin-bottom: 15px;
-      max-width: 200px; }
-    .speakers ul li .speaker-name {
-      font-size: 20px;
-      font-weight: 300;
-      line-height: 24px;
-      text-transform: uppercase; }
-    .speakers ul li .speaker-twitter {
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 20px; }
+.speakers img {
+  width: 70%;
+  max-width: 300px; }
+.speakers .speaker-name {
+  margin-top: 30px;
+  margin-bottom: 0; }
+.speakers .speaker-twitter {
+  margin-top: 0px;
+  font-size: 0.95em; }
 
 .sponsors ul {
   padding-left: 0px; }
