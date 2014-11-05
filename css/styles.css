@@ -5357,9 +5357,17 @@ section {
   margin-top: 30px;
   margin-bottom: 30px; }
 
+.speakers .speaker {
+  margin-top: 30px; }
+  @media (max-width: 768px) {
+    .speakers .speaker {
+      text-align: center; } }
 .speakers img {
   width: 70%;
   max-width: 300px; }
+  @media (max-width: 768px) {
+    .speakers img {
+      width: 100%; } }
 .speakers .speaker-name {
   margin-top: 30px;
   margin-bottom: 0; }
