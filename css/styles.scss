@@ -196,8 +196,11 @@ footer {
 
   a {
     color: white;
+    border-bottom: 1px #fafafa dotted;
 
     &:hover {
+      text-decoration: none;
+      border-bottom: 1px #aaa dotted;
       color: darken(#fff, 10%);
     }
   }
