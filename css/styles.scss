@@ -111,9 +111,16 @@ section {
 }
 
 .speakers {
+  .speaker {
+    margin-top: 30px;
+
+    @media(max-width: 768px) { text-align: center; }
+  }
+
   img {
     width: 70%;
     max-width: 300px;
+    @media(max-width: 768px) { width: 100%; }
   }
   .speaker-name {
     margin-top: 30px;
