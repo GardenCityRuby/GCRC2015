@@ -18,13 +18,13 @@ $table-bg-hover:                    $brand-primary !default;
 // Add your styles here
 
 body {
-  font-family: 'PT Sans', 'Helvetica';
+  font-family: 'pt-sans', 'PT Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
 }
 
 h1, h2 {
-  font-family: 'Abril Fatface';
+  font-family: 'abril-fatface',' Abril Fatface', Palatino, 'Palatino Linotype', serif;
 }
 
 h1 { font-size: 2.5em; }
