@@ -226,13 +226,3 @@ footer {
     }
   }
 }
-
-@media (min-width: 768px) {
-  .show-in-desktop { display: block; }
-  .show-in-non-desktop { display: none; }
-}
-
-@media (max-width: 767px) {
-  .show-in-desktop { display: none; }
-  .show-in-non-desktop { display: block; }
-}
