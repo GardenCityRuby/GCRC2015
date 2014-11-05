@@ -107,38 +107,22 @@ section {
 .section-title {
   font-weight: 300;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .speakers {
-  ul {
-    padding-left: 0px;
-    li {
-      list-style: none;
-      display: inline-block;
-      margin:auto;
-      margin-right: 24px;
-      margin-bottom:30px;
+  img {
+    width: 70%;
+    max-width: 300px;
+  }
+  .speaker-name {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
 
-      img {
-        border: 2px solid #777;
-        margin-bottom: 15px;
-        max-width: 200px;
-      }
-
-      .speaker-name {
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 24px;
-        text-transform: uppercase;
-      }
-
-      .speaker-twitter {
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 20px;
-      }
-    }
+  .speaker-twitter {
+    margin-top: 0px;
+    font-size: 0.95em;
   }
 }
 
