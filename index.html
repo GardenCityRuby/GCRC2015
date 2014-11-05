@@ -32,18 +32,30 @@ layout: default
 
     <!-- desktop nav -->
     <div class="visible-sm-block visible-md-block visible-lg-block">
-      <div id="gcrc-navbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Speakers</a></li>
-          <li>
-            <a class="navbar-brand" href="#">
-              <img src="images/gcrc.png" alt="" class="nav-logo" />
-            </a>
-          </li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#venue">Venue</a></li>
-        </ul>
+      <div id="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <div class="row">
+            <ul class="nav navbar-nav">
+              <li class="col-sm-2">
+                <a href="#about">About</a>
+              </li>
+              <li class="col-sm-2">
+                <a href="#speakers">Speakers</a>
+              </li>
+              <li class="col-sm-4">
+                <a class="navbar-brand full-width" href="#">
+                  <img src="images/gcrc.png" alt="" class="nav-logo" />
+                </a>
+              </li>
+              <li class="col-sm-2">
+                <a href="#sponsors">Sponsors</a>
+              </li>
+              <li class="col-sm-2">
+                <a href="#venue">Venue</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div><!--/.navbar-collapse -->
     </div>
   </div>
@@ -69,7 +81,6 @@ layout: default
 <section class="about">
   <div class="container">
     <h2 class="section-title">About</h2>
-    <span id="speakers"></span>
     <p>
     GardenCityRubyConf aka GCRC is Bangalore’s own regional Ruby Confence.
     Having received much love and support from the ruby community after the
@@ -81,6 +92,7 @@ layout: default
     GCRC will be a single day, two-track conference with talks in one track and
     hands-on workshops in the other.
     </p>
+    <span id="speakers"></span>
   </div>
 </section>
 
@@ -111,8 +123,8 @@ layout: default
       <div class="col-xs-6 col-sm-4">
         <div class="speaker">
           <img src="images/speakers/hemant.png" alt="Hemant Kumar">
-          <span id="sponsors"></span>
           <p class='speaker-name'>Hemant Kumar</p>
+          <span id="sponsors"></span>
           <p class='speaker-twitter'>
           <a href="https://twitter.com/gnufied" target="_blank">@gnufied</a>
           </p>
