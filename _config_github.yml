@@ -1,1 +1,3 @@
 url:              http://gardencityruby.github.io/GCRC2015
+assets:
+  cache: true
