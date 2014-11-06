@@ -125,14 +125,15 @@ section {
 
 .section-title {
   font-weight: 600;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
   font-family: 'abril-display', 'Abril Display', 'Palatino Linotype', Palatino, serif;
+  font-style: italic;
 }
 
 .speakers {
   .speaker {
-    margin-top: 30px;
+    margin-bottom: 30px;
 
     @media(max-width: 768px) { text-align: center; }
   }
