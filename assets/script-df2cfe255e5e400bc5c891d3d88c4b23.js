@@ -1,1 +1,0 @@
-$(document).ready(function(){$("#gcrc-navbar-mobile li a").click(function(){$("#gcrc-navbar-mobile").collapse("hide")})});
