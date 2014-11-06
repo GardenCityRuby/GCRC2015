@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     blankslate (2.1.2.4)
+    bootstrap-sass (3.3.0.1)
+      sass (~> 3.2)
     capistrano (2.15.5)
       highline
       net-scp (>= 1.0.0)
@@ -52,6 +54,7 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.1.1)
       listen (~> 2.7)
+    json (1.8.1)
     kramdown (1.4.2)
     liquid (2.6.1)
     listen (2.7.9)
@@ -96,13 +99,18 @@ GEM
       hitimes
     toml (0.1.1)
       parslet (~> 1.5.0)
+    uglifier (2.5.3)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   capistrano (~> 2.15)
   jekyll
   jekyll-assets
   rake
+  uglifier
