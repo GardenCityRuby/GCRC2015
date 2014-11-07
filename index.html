@@ -31,7 +31,7 @@ layout: default
     </div>
 
     <!-- desktop nav -->
-    <div class="visible-sm-block visible-md-block visible-lg-block">
+    <div class="visible-sm-block visible-md-block visible-lg-block desktop-nav">
       <div id="row">
         <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <div class="row">
@@ -43,9 +43,11 @@ layout: default
                 <a href="#speakers">Speakers</a>
               </li>
               <li class="col-sm-4">
-                <a class="navbar-brand full-width" href="#">
-                  {% image gcrc.svg alt='GCRC' class='nav-logo' %}
-                </a>
+                <div class="navbar-brand-logo">
+                  <a href="#">
+                    {% image gcrc.svg alt='GCRC' class='nav-logo' %}
+                  </a>
+                </div>
               </li>
               <li class="col-sm-2">
                 <a href="#sponsors">Sponsors</a>

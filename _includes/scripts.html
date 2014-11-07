@@ -5,5 +5,14 @@
     $("#gcrc-navbar-mobile li a").click(function(event) {
       $("#gcrc-navbar-mobile").collapse('hide');
     });
+    $(window).scroll(function(){
+      var navBar = $('.navbar');
+      var desktopNav = $('.desktop-nav');
+      if (navBar.offset().top > 50) {
+        desktopNav.addClass('desktop-thin-nav');
+      } else {
+        desktopNav.removeClass('desktop-thin-nav');
+      }
+    });
   });
 </script>

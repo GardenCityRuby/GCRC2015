@@ -1,6 +1,6 @@
 // Override Bootstrap Variables
 $brand-primary:                     rgb(221,63,80) !default;
-$navbar-height:                     75px !default;
+$navbar-height:                     55px !default;
 $navbar-default-bg:                 rgba(255, 255, 255, 0.95) !default;
 $navbar-default-link-color:         #555 !default;
 $navbar-default-link-hover-color:   $brand-primary !default;
@@ -41,16 +41,34 @@ section {
 
 .navbar { margin-bottom: 0px; }
 
-.navbar-brand{
-  margin-top: -20px;
 
-  img.nav-logo {
-    max-width: 50px;
-    margin: 5px 35%;
+.navbar-brand-logo {
+  padding: 3px 0 0 0;
 
-    @media (max-width: 768px) {
-      max-width: 40px;
-      margin: 5px 15px;
+
+  .nav-logo {
+    width: 55px;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+  }
+}
+
+.navbar-brand {
+  padding-top: 3px;
+
+  .nav-logo { width: 45px; }
+}
+
+.desktop-thin-nav {
+  .navbar-brand-logo {
+    .nav-logo { width: 25px; }
+  }
+  .navbar-nav {
+    li {
+      a {
+        padding: 7px 0;
+      }
     }
   }
 }
@@ -67,6 +85,10 @@ section {
       font-size: 0.8em;
       font-weight: bold;
       text-transform: uppercase;
+
+      -webkit-transition: padding .3s ease-in-out;
+      -moz-transition: padding .3s ease-in-out;
+      transition: padding .3s ease-in-out;
     }
 
     @media (min-width: 768px) {
