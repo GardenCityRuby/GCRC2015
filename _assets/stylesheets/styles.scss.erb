@@ -54,8 +54,15 @@ section {
   }
 }
 
+.navbar-toggle {
+  border: none;
+  .icon-bar {
+    height: 3px;
+  }
+}
+
 .navbar-brand {
-  padding-top: 3px;
+  padding-top: 4px;
 
   .nav-logo { width: 45px; }
 }
@@ -96,6 +103,13 @@ section {
       padding-right: 0;
 
       a { padding: 25px 0px; }
+    }
+
+    @media (max-width: 480px) {
+      a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
     }
   }
 
