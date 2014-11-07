@@ -1,3 +1,9 @@
 {% javascript jquery.min %}
 {% javascript bootstrap %}
-{% javascript script %}
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function () {
+    $("#gcrc-navbar-mobile li a").click(function(event) {
+      $("#gcrc-navbar-mobile").collapse('hide');
+    });
+  });
+</script>
