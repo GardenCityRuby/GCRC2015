@@ -22,7 +22,7 @@
   <meta name="twitter:image:src" content="http://www.gardencityruby.org/images/gcrc_2015_details.jpg">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="/GCRC2015/assets/styles-e8059491fdf3f7bc99c9355c273549cc.css">
+  <link rel="stylesheet" href="/GCRC2015/assets/styles-9d510e2e4807a64f7ddc2843296692b7.css">
 
   <!-- Bootstrap -->
   <meta charset="utf-8">
@@ -59,7 +59,7 @@
       </button>
 
       <a class="navbar-brand visible-xs-block" href="#">
-        <img src="/GCRC2015/assets/gcrc-c4e65f7cb957abd7e5be0babe5963e1d.png" alt='GCRC' class='nav-logo'>
+        <img src="/GCRC2015/assets/gcrc-c949d9af454f0ad83013692a259183a5.svg" alt='GCRC' class='nav-logo'>
       </a>
     </div>
 
@@ -77,11 +77,11 @@
     </div>
 
     <!-- desktop nav -->
-    <div class="visible-sm-block visible-md-block visible-lg-block">
-      <div id="row">
+    <div class="visible-sm-block visible-md-block visible-lg-block desktop-nav">
+      <div class="row">
         <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <div class="row">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav desktop-navbar-nav">
               <li class="col-sm-2">
                 <a href="#about">About</a>
               </li>
@@ -89,9 +89,11 @@
                 <a href="#speakers">Speakers</a>
               </li>
               <li class="col-sm-4">
-                <a class="navbar-brand full-width" href="#">
-                  <img src="/GCRC2015/assets/gcrc-c4e65f7cb957abd7e5be0babe5963e1d.png" alt='GCRC' class='nav-logo'>
-                </a>
+                <div class="navbar-brand-logo">
+                  <a href="#">
+                    <img src="/GCRC2015/assets/gcrc-c949d9af454f0ad83013692a259183a5.svg" alt='GCRC' class='nav-logo'>
+                  </a>
+                </div>
               </li>
               <li class="col-sm-2">
                 <a href="#sponsors">Sponsors</a>
@@ -116,17 +118,17 @@
         January 10, 2015
       </h3>
       <h3 class="date">
-        Bangalore
+        <a href="#venue" class="white-link">Bangalore</a>
       </h3>
       <a class="btn btn-hero btn-lg btn-default" href="http://gcrc15.doattend.com">
         Register Now
       </a>
-      <span id="about"></span>
     </div>
   </div>
 </section>
 
 <!-- About -->
+<a class='anchor' id='about'></a>
 <section class="about">
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
@@ -142,12 +144,12 @@
       GCRC will be a single day, two-track conference with talks in one track and
       hands-on workshops in the other.
       </p>
-      <span id="speakers"></span>
     </div>
   </div>
 </section>
 
 <!-- Speakers -->
+<a class='anchor' id='speakers'></a>
 <section class="speakers">
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
@@ -176,7 +178,6 @@
           <div class="speaker">
             <img src="/GCRC2015/assets/speakers/hemant-61ffdd1fd016efb8f6fc2ed64c631485.png" alt='Hemant Kumar'>
             <p class='speaker-name'>Hemant Kumar</p>
-            <span id="sponsors"></span>
             <p class='speaker-twitter'>
             <a href="https://twitter.com/gnufied" target="_blank">@gnufied</a>
             </p>
@@ -187,12 +188,13 @@
   </div>
 </section>
 
+
 <!-- Sponsors -->
-<section class="sponsors" id="sponsors">
+<a class='anchor' id='sponsors'></a>
+<section class="sponsors">
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
       <h2 class="section-title">Sponsors</h2>
-      <span id="venue"></span>
       <ul>
         <li>
           <a href="/sponsorship_brochure_2015.pdf" target="_blank">
@@ -206,7 +208,8 @@
 
 
 <!-- Venue -->
-<section class="venue" id="venue">
+<a class='anchor' id='venue'></a>
+<section class="venue">
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
       <h2 class="section-title">Venue</h2>
@@ -248,39 +251,52 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6">
             <ul class="list-unstyled">
-              <li>
-                Emil Soman
-              </li>
-              <li>
-                Kashyap Kondamudi
-              </li>
-              <li>
-                Leena SN
-              </li>
+              <li>Emil Soman</li>
+              <li>Kashyap Kondamudi</li>
+              <li>Leena SN</li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-6">
             <ul class="list-unstyled">
-              <li>
-                Satish Kumar Perala
-              </li>
-              <li>
-                Swanand Pagnis
-              </li>
-              <li>
-                Tejas Dinkar
-              </li>
+              <li>Satish Kumar Perala</li>
+              <li>Swanand Pagnis</li>
+              <li>Tejas Dinkar</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h3>Previous Events</h3>
+        <a href="//2014.gardencityruby.org/" target="_blank">
+          Garden City Ruby Conference 2014
+        </a>
+      </div>
+    </div>
+
   </div>
 </footer>
 
     <script src="/GCRC2015/assets/jquery.min-dc401b661075a4fd3ab412972442f613.js"></script>
 <script src="/GCRC2015/assets/bootstrap-01fa402cdcf2de51779b6e6e550339c8.js"></script>
-<script src="/GCRC2015/assets/script-009c5d972958974d05567ad4916af6e3.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function () {
+    $("#gcrc-navbar-mobile li a").click(function(event) {
+      $("#gcrc-navbar-mobile").collapse('hide');
+    });
+    $(window).scroll(function(){
+      var navBar = $('.navbar');
+      var desktopNav = $('.desktop-nav');
+      if (navBar.offset().top > 50) {
+        navBar.addClass('desktop-thin-nav');
+      } else {
+        navBar.removeClass('desktop-thin-nav');
+      }
+    });
+  });
+</script>
 
   </body>
 </html>
