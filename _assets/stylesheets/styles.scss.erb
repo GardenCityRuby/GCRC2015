@@ -231,8 +231,14 @@ section {
 }
 
 footer {
+  h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
   font-size: 0.9em;
-  padding: 40px;
+  padding: 20px;
   background: $brand-primary;
   color: white;
 
@@ -246,4 +252,6 @@ footer {
       color: darken(#fff, 10%);
     }
   }
+
+  & + .row { margin-top: 25px; }
 }
