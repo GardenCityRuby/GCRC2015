@@ -68,10 +68,11 @@ section {
 }
 
 .desktop-thin-nav {
+  min-height: 30px;
   .navbar-brand-logo {
     .nav-logo { width: 25px; }
   }
-  .navbar-nav {
+  .desktop-navbar-nav {
     li {
       a {
         padding: 7px 0;
@@ -96,21 +97,9 @@ section {
       -webkit-transition: padding .3s ease-in-out;
       -moz-transition: padding .3s ease-in-out;
       transition: padding .3s ease-in-out;
+      padding: 25px 0px;
     }
 
-    @media (min-width: 768px) {
-      padding-left: 0;
-      padding-right: 0;
-
-      a { padding: 25px 0px; }
-    }
-
-    @media (max-width: 480px) {
-      a {
-        padding-top: 25px;
-        padding-bottom: 25px;
-      }
-    }
   }
 
   .nav-register {
