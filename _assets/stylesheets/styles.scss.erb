@@ -253,6 +253,7 @@ section {
     height: 300px;
     padding: 20% 30px;
     text-align: right;
+    cursor: default;
   }
 
   address {
@@ -267,9 +268,17 @@ section {
     display:block;
     min-height:400px;
     max-height:500px;
-    background: url(<%= asset_path 'lemerdien_location.png' %>);
+    background: url(<%= asset_path 'lemerdien_location.png' %>) no-repeat;
     background-position: center;
     margin-bottom: 0;
+
+    @media(min-width: 768px) {
+      background-position: 35% center;
+    }
+
+    &:hover {
+      color: #333;
+    }
   }
 }
 
