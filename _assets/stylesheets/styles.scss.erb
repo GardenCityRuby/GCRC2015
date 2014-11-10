@@ -254,6 +254,13 @@ section {
     padding: 30% 30px;
     text-align: right;
     border: 1px solid #fff;
+
+    @media(max-width: 768px) {
+      text-align: center;
+      height: auto;
+      padding: 0 30px;
+
+    }
   }
 
   address {
@@ -272,14 +279,17 @@ section {
 
   .map {
     display:block;
-    min-height:400px;
-    max-height:500px;
+    height:400px;
     background: url(<%= asset_path 'lemerdien_location.png' %>) no-repeat;
     background-position: center;
     margin-bottom: 0;
 
     @media(min-width: 768px) {
       background-position: 35% center;
+    }
+
+    @media(max-width: 768px) {
+      height: 300px;
     }
 
     &:hover {
