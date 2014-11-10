@@ -90,13 +90,25 @@ layout: default
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
       <h2 class="section-title">Sponsors</h2>
-      <ul>
-        <li>
-          <a href="/sponsorship_brochure_2015.pdf" target="_blank">
-            View the sponsorship prospectus
-          </a>
-        </li>
-      </ul>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="sponsor">
+            {% image sponsors/codemancers.svg alt="Codemancers" class="center-block"%}
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="sponsor">
+            {% image sponsors/cybrilla.png alt="Cybrilla" class="center-block"%}
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="sponsor">
+            <a href="/sponsorship_brochure_2015.pdf" target="_blank" class="btn-brand btn center-inline-block">
+              + Become a sponsor
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
