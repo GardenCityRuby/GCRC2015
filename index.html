@@ -1,65 +1,6 @@
 ---
 layout: default
 ---
-<!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gcrc-navbar-mobile" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <a class="navbar-brand visible-xs-block" href="#">
-        {% image gcrc.png alt='GCRC' class='nav-logo' %}
-      </a>
-    </div>
-
-
-    <!-- mobile nav -->
-    <div class="visible-xs-block">
-      <div id="gcrc-navbar-mobile" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#venue">Venue</a></li>
-        </ul>
-      </div><!--/.navbar-collapse -->
-    </div>
-
-    <!-- desktop nav -->
-    <div class="visible-sm-block visible-md-block visible-lg-block">
-      <div id="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-          <div class="row">
-            <ul class="nav navbar-nav">
-              <li class="col-sm-2">
-                <a href="#about">About</a>
-              </li>
-              <li class="col-sm-2">
-                <a href="#speakers">Speakers</a>
-              </li>
-              <li class="col-sm-4">
-                <a class="navbar-brand full-width" href="#">
-                  {% image gcrc.png alt='GCRC' class='nav-logo' %}
-                </a>
-              </li>
-              <li class="col-sm-2">
-                <a href="#sponsors">Sponsors</a>
-              </li>
-              <li class="col-sm-2">
-                <a href="#venue">Venue</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div><!--/.navbar-collapse -->
-    </div>
-  </div>
-</nav>
 
 <!-- Hero -->
 <section class="hero">
@@ -70,17 +11,17 @@ layout: default
         January 10, 2015
       </h3>
       <h3 class="date">
-        Bangalore
+        <a href="#venue" class="white-link">Bangalore</a>
       </h3>
       <a class="btn btn-hero btn-lg btn-default" href="http://gcrc15.doattend.com">
         Register Now
       </a>
-      <span id="about"></span>
     </div>
   </div>
 </section>
 
 <!-- About -->
+<a class='anchor' id='about'></a>
 <section class="about">
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
@@ -96,12 +37,12 @@ layout: default
       GCRC will be a single day, two-track conference with talks in one track and
       hands-on workshops in the other.
       </p>
-      <span id="speakers"></span>
     </div>
   </div>
 </section>
 
 <!-- Speakers -->
+<a class='anchor' id='speakers'></a>
 <section class="speakers">
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
@@ -130,7 +71,6 @@ layout: default
           <div class="speaker">
             {% image speakers/hemant.png alt='Hemant Kumar' %}
             <p class='speaker-name'>Hemant Kumar</p>
-            <span id="sponsors"></span>
             <p class='speaker-twitter'>
             <a href="https://twitter.com/gnufied" target="_blank">@gnufied</a>
             </p>
@@ -141,91 +81,39 @@ layout: default
   </div>
 </section>
 
+
 <!-- Sponsors -->
-<section class="sponsors" id="sponsors">
+<a class='anchor' id='sponsors'></a>
+<section class="sponsors">
   <div class="container">
     <div class="col-lg-10 col-lg-offset-1">
       <h2 class="section-title">Sponsors</h2>
-      <span id="venue"></span>
-      <ul>
-        <li>
-          <a href="/sponsorship_brochure_2015.pdf" target="_blank">
-            View the sponsorship prospectus
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-
-<!-- Venue -->
-<section class="venue" id="venue">
-  <div class="container">
-    <div class="col-lg-10 col-lg-offset-1">
-      <h2 class="section-title">Venue</h2>
-      <p>
-      <address>
-        <p><strong>Le Méridien Bangalore</strong></p>
-        <p>No. 28, Sankey Road,</p>
-        <p>Opposite Bangalore Golf Club</p>
-        <p>Bangalore Karnataka 560052</p>
-      </address>
-      </p>
-    </div>
-  </div>
-  <a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Le+Meridien+Bangalore,+28,+Sankey+Road,+Bengaluru,+Karnataka,+India&aq=0&oq=le+merid&sll=28.59515,77.211528&sspn=0.218247,0.361862&vpsrc=6&t=m&gl=us&ie=UTF8&hq=Le+Meridien+Bangalore,+28,+Sankey+Road,+Bengaluru,+Karnataka,+India&hnear=&radius=15000&ll=12.990377,77.586946&spn=0.003784,0.005654&z=18&cid=943640211268752346&iwloc=A" class="map jumbotron">
-  </a>
-</section>
-
-<!-- footer -->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Contact</h3>
-        <p class='contact'>
-          <a href="mailto:team@gardencityruby.org">team@gardencityruby.org</a>
-          <ul class="list-unstyled">
-            <li>
-              Swanand: <a href="tel:+919986034153">+91 99-86-034153</a>
-            </li>
-            <li>
-              Satish: <a href="tel:+919916599187">+91 99-16-599187</a>
-            </li>
-          </ul>
-        </p>
-      </div>
-
-      <div class="col-md-4 col-md-offset-4">
-        <h3>Team</h3>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <ul class="list-unstyled">
-              <li>Emil Soman</li>
-              <li>Kashyap Kondamudi</li>
-              <li>Leena SN</li>
-            </ul>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="sponsor">
+            <a href="http://codemancers.com/" class="center-block no-style-link" target="_blank">
+              {% image sponsors/codemancers.svg alt="Codemancers" %}
+            </a>
           </div>
-          <div class="col-xs-12 col-sm-6">
-            <ul class="list-unstyled">
-              <li>Satish Kumar Perala</li>
-              <li>Swanand Pagnis</li>
-              <li>Tejas Dinkar</li>
-            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="sponsor">
+            <a href="http://www.cybrilla.com/" class="center-block no-style-link" target="_blank">
+              {% image sponsors/cybrilla.png alt="Cybrilla" %}
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="sponsor">
+            <a href="/sponsorship_brochure_2015.pdf" target="_blank" class="center-inline-block">
+              + Become a sponsor
+            </a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <h3>Previous Events</h3>
-        <a href="//2014.gardencityruby.org/" target="_blank">
-          Garden City Ruby Conference 2014
-        </a>
-      </div>
-    </div>
-
   </div>
-</footer>
+</section>
+
+<!-- Venue -->
+{% include venue.html %}

@@ -1,7 +1,7 @@
 // Override Bootstrap Variables
 $brand-primary:                     rgb(221,63,80) !default;
-$navbar-height:                     100px !default;
-$navbar-default-bg:                 #FFFFFF !default;
+$navbar-height:                     55px !default;
+$navbar-default-bg:                 rgba(255, 255, 255, 0.95) !default;
 $navbar-default-link-color:         #555 !default;
 $navbar-default-link-hover-color:   $brand-primary !default;
 $border-radius-large:               2px !default;
@@ -32,19 +32,58 @@ h1 {
 p  { font-size: 1.1em; }
 
 section {
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .navbar > .container .navbar-brand { margin-left: 0; }
 
 .full-width { width: 100%; }
 
-.navbar-brand{
-  margin-top: -20px;
+.navbar { margin-bottom: 0px; }
 
-  img.nav-logo {
-    max-width: 50px;
-    margin: 5px 35%;
+.anchor {
+  display: block;
+  position: relative;
+  top: -30px;
+  visibility: hidden;
+}
+
+.navbar-brand-logo {
+  padding: 3px 0 0 0;
+
+
+  .nav-logo {
+    width: 55px;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+  }
+}
+
+.navbar-toggle {
+  border: none;
+  .icon-bar {
+    height: 3px;
+  }
+}
+
+.navbar-brand {
+  padding-top: 4px;
+
+  .nav-logo { width: 45px; }
+}
+
+.desktop-thin-nav {
+  min-height: 30px;
+  .navbar-brand-logo {
+    .nav-logo { width: 25px; }
+  }
+  .desktop-navbar-nav {
+    li {
+      a {
+        padding: 7px 0;
+      }
+    }
   }
 }
 
@@ -60,14 +99,13 @@ section {
       font-size: 0.8em;
       font-weight: bold;
       text-transform: uppercase;
+
+      -webkit-transition: padding .3s ease-in-out;
+      -moz-transition: padding .3s ease-in-out;
+      transition: padding .3s ease-in-out;
+      padding: 25px 0px;
     }
 
-    @media (min-width: 768px) {
-      padding-left: 0;
-      padding-right: 0;
-
-      a { padding: 40px 0px; }
-    }
   }
 
   .nav-register {
@@ -86,10 +124,16 @@ section {
   }
 }
 
+.white-link {
+  color: #fff;
+  border-bottom: 1px dotted rgba(255, 255, 255, 1);
+}
+
 .hero {
-  margin-top: 100px;
+  margin-top: 0;
 
   .jumbotron {
+    padding: 100px 0 40px;
     background: url(<%= asset_path 'park.png' %>) no-repeat;
     min-height: 400px;
     text-align: center;
@@ -104,9 +148,9 @@ section {
     }
   }
 
-  h1, h2 {
+  h1, h2, h3 {
     color: rgba(0, 0, 0, 0.7);
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
   }
 
   .date {
@@ -118,7 +162,7 @@ section {
 .btn-hero {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
   border: none;
-  margin: 25px;
+  margin: 25px auto;
 
   &:hover {
     border: none;
@@ -132,6 +176,7 @@ section {
   margin-bottom: 30px;
   font-family: 'abril-display', 'Abril Display', 'Palatino Linotype', Palatino, serif;
   font-style: italic;
+  text-align: center;
 }
 
 .speakers {
@@ -158,19 +203,21 @@ section {
   }
 }
 
-.sponsors {
-  ul {
-    padding-left: 0px;
+.no-style-link {
+  link-style: none;
+  border: none;
 
-    li {
-      list-style: none;
-      display: inline-block;
-      margin:auto;
-      margin-right: 30px;
-      margin-bottom:30px;
-    }
+  &:hover { border: none; }
+}
+
+.sponsors {
+  .sponsor {
+    margin-top: 30px;
+    text-align: center;
   }
 }
+
+.center-inline-block { display: inline-block; }
 
 .schedule{
   h3 {
@@ -202,21 +249,57 @@ section {
     padding-bottom: 20px;
   }
 
+  .address-box {
+    background: rgba(255,255,255, 0.9);
+    margin-top: -33px;
+    margin-left: -9000px;
+    height: 400px;
+    padding: 25% 30px;
+    text-align: right;
+    border: 1px solid #fff;
+
+    @media(max-width: 768px) {
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center;
+      height: auto;
+      padding: 0 30px;
+
+    }
+  }
+
   address {
     p {
       font-size: 1.2em;
       margin: 0;
       line-height: 1.8;
     }
+
+    a {
+      margin-top: 40px;
+      display: inline-block;
+    }
+
   }
 
   .map {
     display:block;
-    min-height:400px;
-    max-height:500px;
-    background: url(<%= asset_path 'lemerdien_location.png' %>);
+    height:400px;
+    background: url(<%= asset_path 'lemerdien_location.png' %>) no-repeat;
     background-position: center;
     margin-bottom: 0;
+
+    @media(min-width: 768px) {
+      background-position: 35% center;
+    }
+
+    @media(max-width: 768px) {
+      height: 300px;
+    }
+
+    &:hover {
+      color: #333;
+    }
   }
 }
 
@@ -237,8 +320,10 @@ section {
 footer {
   h3 {
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 5px;
+    font-family: 'abril-display', 'Abril Display', Palatino, 'Palatino Linotype', serif;
   }
 
   font-size: 0.9em;
