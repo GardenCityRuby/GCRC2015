@@ -7,6 +7,15 @@ $navbar-default-link-hover-color:   $brand-primary !default;
 $border-radius-large:               2px !default;
 $table-bg-hover:                    $brand-primary !default;
 
+//font-weights
+
+$light                              :300;
+$regular                            :400;
+$semibold                           :600;
+$bold                               :700;      // This is not used for JAF
+$extrabold                          :800;      // This is not used for JAF
+$black                              :900;      // This is not used for JAF
+
 // Imports
 @import "bootstrap_custom";
 
@@ -15,18 +24,23 @@ $table-bg-hover:                    $brand-primary !default;
 // Add your styles here
 
 body {
-  font-family: 'pt-sans', 'PT Sans', Helvetica, Arial, sans-serif;
+  font-family: 'jaf-facitweb', 'JAF Facit', Avenir, Verdana, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  font-weight: $light;
+  color: #333;
 }
 
-h1, h2 {
+.large-heading { font-size: 2.5em; }
+
+.event-heading {
   font-family: 'abril-display', 'Abril Display', Palatino, 'Palatino Linotype', serif;
+  font-weight: $black;
 }
 
-h1 {
-  font-size: 2.5em;
-  font-weight: 900;
+h1, h2, h3 {
+  font-weight: $bold;
+  color: #555;
 }
 
 p  { font-size: 1.1em; }
@@ -96,10 +110,8 @@ section {
     text-align: center;
 
     a {
-      font-size: 0.8em;
-      font-weight: bold;
-      text-transform: uppercase;
-
+      font-size: 1em;
+      font-weight: $regular;
       -webkit-transition: padding .3s ease-in-out;
       -moz-transition: padding .3s ease-in-out;
       transition: padding .3s ease-in-out;
@@ -156,6 +168,7 @@ section {
   .date {
     color: #fff;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+    font-weight: $light;
   }
 }
 
@@ -171,19 +184,16 @@ section {
 
 
 .section-title {
-  font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-family: 'abril-display', 'Abril Display', 'Palatino Linotype', Palatino, serif;
-  font-style: italic;
+  font-weight: $semibold;
+  margin-top: 30px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
 .speakers {
   .speaker {
     margin-bottom: 30px;
-
-    @media(max-width: 768px) { text-align: center; }
+    text-align: center;
   }
 
   img {
@@ -212,7 +222,9 @@ section {
 
 .sponsors {
   .sponsor {
-    margin-top: 30px;
+    @media(max-width: 768px) {
+      margin-top: 30px;
+    }
     text-align: center;
   }
 }
@@ -238,20 +250,9 @@ section {
 .venue {
   margin-bottom: 0;
 
-  .row {
-    margin-top: -15px;
-  }
-
-  h3 {
-    font-size: 25px;
-    font-weight: 600;
-    border-bottom: 1px solid #777;
-    padding-bottom: 20px;
-  }
-
   .address-box {
     background: rgba(255,255,255, 0.9);
-    margin-top: -33px;
+    margin-top: -48px;
     margin-left: -9000px;
     height: 400px;
     padding: 25% 30px;
@@ -320,10 +321,9 @@ section {
 footer {
   h3 {
     font-size: 1.3em;
-    font-weight: 600;
-    font-style: italic;
     margin-bottom: 5px;
-    font-family: 'abril-display', 'Abril Display', Palatino, 'Palatino Linotype', serif;
+    font-weight: $semibold;
+    color: white;
   }
 
   font-size: 0.9em;

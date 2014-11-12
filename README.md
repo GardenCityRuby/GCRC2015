@@ -5,7 +5,10 @@ The two web fonts we use are: 'Abril Display' intended for
 headings, and 'PT Sans' for body copy. The full CSS font stacks are:
 
 Headings: `font-family: 'abril-display', 'Abril Display', Palatino, 'Palatino Linotype', serif;`
-Body:     `font-family: 'pt-sans', 'PT Sans', Helvetica, Arial, sans-serif;`
+Body:     `font-family: 'jaf-facitweb', 'JAF Facit', Avenir, Verdana, Arial, sans-serif;`
+
+(Avenir is a default font on Mac and Verdana is available on almost
+every desktop machine)
 
 
 Layout
