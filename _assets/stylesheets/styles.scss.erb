@@ -6,6 +6,8 @@ $navbar-default-link-color:         #555 !default;
 $navbar-default-link-hover-color:   $brand-primary !default;
 $border-radius-large:               2px !default;
 $table-bg-hover:                    $brand-primary !default;
+$font-size-base:                    16px !default;
+$line-height-base:                  1.6 !default;
 
 //font-weights
 
@@ -25,8 +27,6 @@ $black                              :900;      // This is not used for JAF
 
 body {
   font-family: 'jaf-facitweb', 'JAF Facit', Avenir, Verdana, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
   font-weight: $light;
   color: #333;
 }
@@ -43,7 +43,13 @@ h1, h2, h3 {
   color: #555;
 }
 
-p  { font-size: 1.1em; }
+p  {
+  font-size: 1.1em;
+
+  @media(max-width: 768px) {
+    font-size: 1em;
+  }
+}
 
 section {
   margin: 50px auto;
@@ -58,7 +64,7 @@ section {
 .anchor {
   display: block;
   position: relative;
-  top: -30px;
+  top: -40px;
   visibility: hidden;
 }
 
@@ -67,7 +73,7 @@ section {
 
 
   .nav-logo {
-    width: 55px;
+    width: 60px;
     -webkit-transition: width .3s ease-in-out;
     -moz-transition: width .3s ease-in-out;
     transition: width .3s ease-in-out;
@@ -95,7 +101,7 @@ section {
   .desktop-navbar-nav {
     li {
       a {
-        padding: 7px 0;
+        padding: 3px 0;
       }
     }
   }
@@ -185,31 +191,33 @@ section {
 
 .section-title {
   font-weight: $semibold;
-  margin-top: 30px;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .speakers {
   .speaker {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
   }
 
   img {
-    width: 70%;
+    width: 100%;
     max-width: 300px;
-    @media(max-width: 768px) { width: 100%; }
   }
   .speaker-name {
     margin-top: 30px;
     margin-bottom: 0;
-    @media(max-width: 768px) { font-size: 0.9em; }
   }
 
   .speaker-twitter {
     margin-top: 0px;
-    font-size: 0.95em;
+    font-size: 0.9em;
+  }
+
+  @media(max-width: 768px) {
+    width: 100%;
+    .speaker-name, .speaker-twitter { font-size: 0.8em; }
   }
 }
 
