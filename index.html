@@ -43,44 +43,7 @@ permalink: /
 </section>
 
 <!-- Speakers -->
-<a class='anchor' id='speakers'></a>
-<section class="speakers">
-  <div class="container">
-    <div class="col-lg-10 col-lg-offset-1">
-      <h2 class="section-title">Invited Speakers</h2>
-      <div class="row">
-        <div class="col-xs-6 col-sm-4">
-          <div class="speaker">
-            {% image speakers/konstantin.jpg alt='Konstantin Haase' %}
-            <p class="speaker-name">Konstantin Haase</p>
-            <p class="speaker-twitter">
-            <a href="https://twitter.com/konstantinhaase" target="_blank">@konstantinhaase</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4">
-          <div class="speaker">
-            {% image speakers/paulo.jpg alt='Paulo Perotta' %}
-            <p class="speaker-name">Paulo Perotta</p>
-            <p class="speaker-twitter">
-            <a href="https://twitter.com/nusco" target="_blank">@nusco</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-xs-6 col-sm-4">
-          <div class="speaker">
-            {% image speakers/hemant.png alt='Hemant Kumar' %}
-            <p class='speaker-name'>Hemant Kumar</p>
-            <p class='speaker-twitter'>
-            <a href="https://twitter.com/gnufied" target="_blank">@gnufied</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include speakers.html %}
 
 <!-- Venue -->
 {% include venue.html %}
