@@ -1,0 +1,34 @@
+---
+layout: default_site
+permalink: /program/index.html
+---
+
+<a class='anchor' id='code-of-conduct'></a>
+<section id="program">
+    <div class="container">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Program</h2>
+        <ul class="cbp_tmtimeline">
+        {% for item in site.data.program %}
+          <li>
+          <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>{{item.time}}</span></time>
+            {% if item.type == 'talk' %}
+              <a href="https://twitter.com/{{item.speaker_twitter}}">
+                <div class="cbp_tmicon">{{ item.speaker_email | gravatar }}</div>
+              </a>
+            {% endif %}
+            <div class="cbp_tmlabel">
+                <h3>{{ item.title }}</h3>
+                {% if item.type == 'talk' %}
+                   <h5> {{ item.speaker_name }} </h5>
+                  <div class="cbp_desc">
+                    <p> {{item.description}} </p>
+                  </div>
+                {% endif %}
+              </div>
+          </li>
+        {% endfor %}
+        </ul>
+    </div>
+  </div>
+</section>
