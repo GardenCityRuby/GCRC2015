@@ -146,8 +146,11 @@
     the Heap Dump interface that Rubinius provides for analysis of memory dumps.
   time: 15:45 - 16:05
   speakers:
-  - name: Akanksha Agarwal, Sana
-    twitter:
+  - name: Akanksha Agarwal
+    twitter: AkankshaHA
+    email:
+  - name: Sana Khan
+    twitter: sanakhan_libre
     email:
 - type: misc
   title: Coffee break
