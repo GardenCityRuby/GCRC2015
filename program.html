@@ -28,7 +28,7 @@ permalink: /program/index.html
               <h5>
                 {% for speaker in item.speakers %}
                   {% if speaker.twitter %}
-                    <a href="https://twitter.com/{{speaker.twitter}}">
+                    <a href="https://twitter.com/{{speaker.twitter}}" target="_blank">
                       {{ speaker.name }}
                     </a>
                   {% else %}
