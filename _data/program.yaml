@@ -57,7 +57,7 @@
   time: "11:00 - 11:20"
 
 - type: talk
-  title: Immutability Matters
+  title: Fun with Ruby and Arduino
   speaker_name: Anmol Agarwal
   speaker_twitter: anmol1771
   description:
@@ -73,7 +73,7 @@
   time: "11:20 - 12:00"
 
 - type: misc
-  title: Coffee break
+  title: Break
   time: "12:00 - 12:05"
 
 - type: talk
@@ -138,7 +138,7 @@
 
 - type: misc
   title: Coffee break
-  time: "15:40 - 15:05"
+  time: "15:00 - 15:05"
 
 - type: talk
   title: Resilient by Design
