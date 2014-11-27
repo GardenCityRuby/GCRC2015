@@ -3,41 +3,108 @@
 - type: misc
   title: Registration
   time: "08:30 - 09:00"
+
 - type: misc
-  title: Welcome note
+  title: Welcome Note
   time: "09:00 - 09:10"
+
 - type: talk
   title: Keynote
   speaker_name: Konstantin Haase
   speaker_twitter: konstantinhaase
   speaker_email: konstantin.haase@gmail.com
-  description: Some description here
+  description:
   time: "09:15 - 09:55"
+
 - type: talk
-  title: Full talk 1
-  speaker_name: Speaker Name
-  speaker_twitter: something
-  speaker_email: something@something.com
-  description: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+  title: ActiveRecord can't do it? Arel can!
+  speaker_name: Vipul & Prathamesh
+  speaker_twitter: vipulsward
+  speaker_email: vipulnsward@gmail.com
+  description:
   time: "10:00 - 10:40"
+
 - type: misc
   title: Coffee break
-  speaker_name: Speaker Name
-  speaker_twitter: something
-  speaker_email: something@something.com
-  description: Some description here
   time: "10:40 - 11:00"
+
 - type: talk
-  title: Flash Talk 1
-  speaker_name: Speaker Name
-  speaker_twitter: something
-  description: Some description here
-  speaker_email: something@something.com
+  title: Immutability Matters
+  speaker_name: Anmol Agarwal
+  speaker_twitter: anmolonruby
+  description:
+  speaker_email:
   time: "11:00 - 11:20"
+
 - type: talk
-  title: Flash Talk 2 with a really really really long name
-  speaker_name: Speaker Name
-  speaker_twitter: something
-  description: Some description here
-  speaker_email: something@something.com
-  time: "11:00 - 11:20"
+  title: WAT!! ActiveRecord Callbacks
+  speaker_name: Monika M
+  speaker_twitter:
+  description:
+  speaker_email:
+  time: "12:05 - 12:25"
+
+- type: talk
+  title: Keynote
+  speaker_name: Paolo Perrotta
+  speaker_twitter:
+  description:
+  speaker_email:
+  time: "2:00 - 2:40"
+
+- type: talk
+  title: Capacity planning with Capybara and RabbitMQ
+  speaker_name: Vijayanand Nandam
+  speaker_twitter:
+  description:
+  speaker_email:
+  time: "2:40 - 3:00"
+
+- type: talk
+  title: Capacity planning with Capybara and RabbitMQ
+  speaker_name: Vijayanand Nandam
+  speaker_twitter:
+  description:
+  speaker_email:
+  time: "2:40 - 3:00"
+
+- type: misc
+  title: Coffee break
+  time: "3:40 - 3:05"
+
+- type: talk
+  title: Resilient by Design
+  speaker_name: Smit Shah
+  speaker_twitter:
+  description:
+  speaker_email:
+  time: "3:05 - 3:45"
+
+- type: talk
+  title: Rubinius — Ruby implemented with Ruby
+  speaker_name: Akanksha Agarwal, Sana
+  speaker_twitter:
+  description:
+  speaker_email:
+  time: "3:45 - 4:05"
+
+- type: misc
+  title: Coffee break
+  time: "4:05 - 4:20"
+
+- type: misc
+  title: Panel Discussion
+  time: "4:20 - 5:20"
+
+- type: talk
+  title: Keynote
+  speaker_name: Hemant Kumar
+  speaker_twitter:
+  description:
+  speaker_email:
+  time: "5:20 - 6:00"
+
+- type: misc
+  title: Closing Note
+  time: "6:00 - 6:15"
+
