@@ -47,8 +47,8 @@
   time: 11:00 - 11:20
   speakers:
   - name: Ranjeet Singh
-    twitter:
-    email:
+    twitter: raeoks
+    email: ranjeetxsingh@gmail.com
 - type: talk
   title: Fun with Ruby and Arduino
   description: "“Internet of things” is the concept of basically connecting any device
