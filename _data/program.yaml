@@ -2,21 +2,21 @@
 - type: misc
   title: Registration
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
 - type: misc
   title: Welcome Note
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
 - type: talk
   title: Keynote
   description: 
-  :speakers:
+  speakers:
   - name: Konstantin Haase
     twitter: konstantinhaase
     email: konstantin.haase@gmail.com
@@ -27,7 +27,7 @@
     But sometimes Active Record can't satisfy our needs. Also Arel has many strengths not exposed through Active Record.
     Let's experiment with Arel directly and wield great SQL power in database agnostic way.
     Oh and did I mention, this is a fun talk, even for us, to “perform”.
-  :speakers:
+  speakers:
   - name: Vipul A
     twitter: vipulnsward
     email: vipulnsward@gmail.com
@@ -37,7 +37,7 @@
 - type: misc
   title: Coffee break
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
@@ -51,7 +51,7 @@
     around and perform operation on those values. Immutability resolves a lot of concurrency
     issues (race conditions, dirty read/write etc.), and also simplifies the codebase
     and test cases.
-  :speakers:
+  speakers:
   - name: Ranjeet Singh
     twitter: 
     email: 
@@ -65,14 +65,14 @@
     from and show things that are possible. I hope audience would learn new possibilities
     with Ruby and not have to spent time learning a new language to interact with
     hardware."
-  :speakers:
+  speakers:
   - name: Anmol Agarwal
     twitter: anmol1771
     email: 
 - type: misc
   title: Break
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
@@ -82,28 +82,28 @@
     The talk is about the gotchas of ActiveRecord callbacks even in the most common usage patterns and touches upon some possible alternatives to avoid each of these pitfalls.
     As Rails developers most of us would have inevitably have run into callbacks. This is something easy to get started with but is even easier to lead you into unexpected behaviour in production. Also, due to their unobtrusive nature they can become forgotten landmines.
     Structured in the popular and fun “WAT” style, the focus is mostly on beginner to intermediate levels, others might find one or two anecdotes surprising.
-  :speakers:
+  speakers:
   - name: Monika M
     twitter: MonikaMhanthapa
     email: 
 - type: misc
   title: Lightning Talks
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
 - type: misc
   title: Lunch
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
 - type: talk
   title: Keynote
   description: 
-  :speakers:
+  speakers:
   - name: Paolo Perrotta
     twitter: nusco
     email: 
@@ -123,14 +123,14 @@
     usage. Capybara, the defacto acceptance testing framework in rails world combined
     with rabbitmq can help us in determining bottlenecks and choosing the right deployment
     architecture.
-  :speakers:
+  speakers:
   - name: Vijayanand Nandam
     twitter: vijayanandam1
     email: 
 - type: misc
   title: Coffee break
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
@@ -140,7 +140,7 @@
     Modern distributed systems have aggressive requirements around uptime and performance, they need to face harsh realities such as sudden rush of visitors, network issues, tangled databases and other unforeseen bugs.
     With so many moving parts involved even in the simplest of services, it becomes mandatory to adopt defensive patterns which would guard against some of these problems and identify anti-patterns before they trigger cascading failures across systems.
     This talk is for all those developers who hate getting a oncall at 4 AM in the morning
-  :speakers:
+  speakers:
   - name: Smit Shah
     twitter: Who828
     email: 
@@ -149,35 +149,35 @@
   description: Rubinius is an alternative Ruby language implementation. We would be
     giving a brief overview of Rubinius Internals and would be majorly talking about
     the Heap Dump interface that Rubinius provides for analysis of memory dumps.
-  :speakers:
+  speakers:
   - name: Akanksha Agarwal, Sana
     twitter: 
     email: 
 - type: misc
   title: Coffee break
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
 - type: misc
   title: Panel Discussion
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
 - type: talk
   title: Keynote
   description: 
-  :speakers:
+  speakers:
   - name: Hemant Kumar
     twitter: gnufied
     email: 
 - type: misc
   title: Closing Note
   description: 
-  :speakers:
+  speakers:
   - name: 
     twitter: 
     email: 
