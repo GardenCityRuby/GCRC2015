@@ -88,8 +88,16 @@
   description:
   time: 13:00 - 14:00
 - type: talk
-  title: Keynote
-  description:
+  title: >
+         Keynote: Wrapping Your Head Around Git
+  description: >
+               A confession: I used Git for months without really understanding what was going on. I knew all the basic commands, but I still got stranded
+               when something went wrong. Why did my rebase fail? How did I manage to mess up the remote?
+               <br/><br/>
+               Then I found the key to Git: the unfamiliar .git directory. That was my lightbulb moment. Once I understood the underlying model,
+               everything about Git clicked into place. Things that used to be baffling and complicated suddenly looked simple and elegant.
+               <br/><br/>
+               Let me share this lightbulb with you. It will take you less than an hour to wrap your head around Git.
   time: 14:00 - 14:40
   speakers:
   - name: Paolo Perrotta
