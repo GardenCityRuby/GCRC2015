@@ -3,43 +3,45 @@ layout: default_site
 permalink: /program/index.html
 ---
 
-<a class='anchor' id='code-of-conduct'></a>
-<section id="program">
-    <div class="container">
-      <div class="col-lg-10 col-lg-offset-1">
-        <h2>Program</h2>
+<a class='anchor' id='program'></a>
+<section class="program">
+  <div class="container">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h2 class="section-title">Program</h2>
+      <div class="program-container">
         <ul class="cbp_tmtimeline">
-        {% for item in site.data.program %}
+          {% for item in site.data.program %}
           <li>
-          <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>{{item.time}}</span></time>
+            <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>{{item.time}}</span></time>
             {% if item.type == 'talk' %}
-              <a href="https://twitter.com/{{item.speaker_twitter}}">
-                <div class="cbp_tmicon">
-                </div>
-              </a>
+            <a href="https://twitter.com/{{item.speaker_twitter}}">
+              <div class="cbp_tmicon">
+              </div>
+            </a>
             {% endif %}
             <div class="cbp_tmlabel">
-                <h3>{{ item.title }}</h3>
-                {% if item.type == 'talk' %}
-                   <h5>
-                     {% if item.speaker_twitter %}
-                     <a href="https://twitter.com/{{item.speaker_twitter}}">
-                       {{ item.speaker_name }}
-                     </a>
-                     {% else %}
-                       {{ item.speaker_name }}
-                     {% endif %}
-                   </h5>
-                  {% if item.title != "Keynote" %}
-                    <div class="cbp_desc">
-                      <p> {{item.description}} </p>
-                    </div>
-                  {% endif %}
+              <h3>{{ item.title }}</h3>
+              {% if item.type == 'talk' %}
+              <h5>
+                {% if item.speaker_twitter %}
+                <a href="https://twitter.com/{{item.speaker_twitter}}">
+                  {{ item.speaker_name }}
+                </a>
+                {% else %}
+                {{ item.speaker_name }}
                 {% endif %}
+              </h5>
+              {% if item.title != "Keynote" %}
+              <div class="cbp_desc">
+                <p> {{item.description}} </p>
               </div>
+              {% endif %}
+              {% endif %}
+            </div>
           </li>
-        {% endfor %}
+          {% endfor %}
         </ul>
+      </div>
     </div>
   </div>
 </section>
