@@ -14,7 +14,7 @@
   top: 0;
   bottom: 0;
   width: 10px;
-  background: #afdcf8;
+  background: $brand-primary;
   left: 20%;
   margin-left: -10px;
 }
@@ -37,23 +37,23 @@
 
 .cbp_tmtimeline > li .cbp_tmtime span:first-child {
   font-size: 0.9em;
-  color: #bdd0db;
+  color: darken($gray, 50%);
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
   font-size: 1.8em;
-  color: #3594cb;
+  color: darken($gray, 80%);
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-  color: #6cbfee;
+  color: darken($gray, 60%);
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
   margin: 0 0 35px 27%;
-  background: #3594cb;
-  color: #fff;
+  background: lighten($gray, 2%);
+  color: #333;
   padding: 1.2em;
   font-size: 1.2em;
   font-weight: 300;
@@ -64,10 +64,10 @@
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-  background: #6cbfee;
+  background: $gray;
 }
 
-.cbp_tmtimeline > li .cbp_tmlabel { 
+.cbp_tmtimeline > li .cbp_tmlabel {
 
   h3 {
     margin-top: 0px;
