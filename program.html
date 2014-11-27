@@ -21,10 +21,20 @@ permalink: /program/index.html
             <div class="cbp_tmlabel">
                 <h3>{{ item.title }}</h3>
                 {% if item.type == 'talk' %}
-                   <h5> {{ item.speaker_name }} </h5>
-                  <div class="cbp_desc">
-                    <p> {{item.description}} </p>
-                  </div>
+                   <h5>
+                     {% if item.speaker_twitter %}
+                     <a href="https://twitter.com/{{item.speaker_twitter}}">
+                       {{ item.speaker_name }}
+                     </a>
+                     {% else %}
+                       {{ item.speaker_name }}
+                     {% endif %}
+                   </h5>
+                  {% if item.title != "Keynote" %}
+                    <div class="cbp_desc">
+                      <p> {{item.description}} </p>
+                    </div>
+                  {% endif %}
                 {% endif %}
               </div>
           </li>
