@@ -1,0 +1,41 @@
+---
+# Types: [talk, misc]
+
+- type: talk
+  title: Refactoring Rails
+  speaker_name: Marshall Yount
+  speaker_twitter: marshallyount
+  speaker_email:
+  description:
+    Put your ActiveRecord Models on a diet! Talk a walk with us through some
+    common code smells, along with tips on how to resolve them.
+
+    </br>
+    This is a 90 minute hands-on workshop. We start with a demo Rails app
+    loaded to the gills with code smells and other problems, and then work to
+    use proven refactoring techniques to clean up the code.
+  time: "11:00 - 12:25"
+
+- type: misc
+  title: Lunch
+  time: "13:00 - 14:00"
+
+- type: talk
+  title: Profiling Ruby applications
+  speaker_name: Yuva Kumar
+  speaker_twitter: iffyuva
+  speaker_email:
+  description:
+    Since the release of ruby 2.1, the language has improved in many areas.
+
+    Lots of improvements to garbage collection, and tuning options Hooks to
+    monitor life cycles of objects, and to monitor GC
+
+    Compared to other languages like Java, C or c++, Ruby does not have
+    a beginner friendly plug-and-play profiling tool that doesn't
+    require you to patch Ruby.  This workshop aims at showing how we
+    can profile Ruby applications, make use of new tracepoints in Ruby
+    to hook into life cycle of objects and make sense of the data
+    collected.
+
+  time: "14:40 - 16:05"

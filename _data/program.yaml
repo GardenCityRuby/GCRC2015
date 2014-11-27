@@ -97,13 +97,21 @@
   speaker_email:
   time: "12:05 - 12:25"
 
+- type: misc
+  title: Lightning Talks
+  time: "12:30 - 13:00"
+
+- type: misc
+  title: Lunch
+  time: "13:00 - 14:00"
+
 - type: talk
   title: Keynote
   speaker_name: Paolo Perrotta
   speaker_twitter: nusco
   description:
   speaker_email:
-  time: "2:00 - 2:40"
+  time: "14:00 - 14:40"
 
 - type: talk
   title: Capacity planning with Capybara and RabbitMQ
@@ -126,11 +134,11 @@
     rails world combined with rabbitmq can help us in determining bottlenecks
     and choosing the right deployment architecture.
   speaker_email:
-  time: "2:40 - 3:00"
+  time: "14:40 - 15:00"
 
 - type: misc
   title: Coffee break
-  time: "3:40 - 3:05"
+  time: "15:40 - 15:05"
 
 - type: talk
   title: Resilient by Design
@@ -149,7 +157,7 @@
     This talk is for all those developers who hate getting a oncall at 4 AM in
     the morning
   speaker_email:
-  time: "3:05 - 3:45"
+  time: "15:05 - 15:45"
 
 - type: talk
   title: Rubinius — Ruby implemented with Ruby
@@ -161,15 +169,15 @@
     the Heap Dump interface that Rubinius provides for analysis of memory
     dumps.
   speaker_email:
-  time: "3:45 - 4:05"
+  time: "15:45 - 16:05"
 
 - type: misc
   title: Coffee break
-  time: "4:05 - 4:20"
+  time: "16:05 - 16:20"
 
 - type: misc
   title: Panel Discussion
-  time: "4:20 - 5:20"
+  time: "16:20 - 17:20"
 
 - type: talk
   title: Keynote
@@ -177,8 +185,8 @@
   speaker_twitter: gnufied
   description:
   speaker_email:
-  time: "5:20 - 6:00"
+  time: "17:20 - 18:00"
 
 - type: misc
   title: Closing Note
-  time: "6:00 - 6:15"
+  time: "18:00 - 18:15"
