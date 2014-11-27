@@ -1,7 +1,6 @@
 namespace :deploy do
   desc "Deploy to staging"
   task :staging do
-    puts Dir.pwd
     system "bundle exec jekyll build --destination _site --config _config.yml,_config_github.yml"
     Dir.chdir "_site" do
       system "git init"

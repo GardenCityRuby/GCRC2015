@@ -1,0 +1,192 @@
+---
+# Types: [talk, misc]
+- type: misc
+  title: Registration
+  time: "08:30 - 09:00"
+
+- type: misc
+  title: Welcome Note
+  time: "09:00 - 09:10"
+
+- type: talk
+  title: Keynote
+  speaker_name: Konstantin Haase
+  speaker_twitter: konstantinhaase
+  speaker_email: konstantin.haase@gmail.com
+  description:
+  time: "09:15 - 09:55"
+
+- type: talk
+  title: ActiveRecord can't do it? Arel can!
+  speaker_name: Vipul & Prathamesh
+  speaker_twitter: vipulnsward
+  speaker_email: vipulnsward@gmail.com
+  description:
+    ActiveRecord can't do it? Arel can!  Active Record is awesome. But how does
+    ActiveRecord handle generating complex SQL queries? Under the hood it's
+    handled by Arel. Most of the time, Rails developers don't have to know
+    about how Arel works.
+
+    But sometimes Active Record can't satisfy our needs. Also Arel has many
+    strengths not exposed through Active Record.
+
+    Let's experiment with Arel directly and wield great SQL power in database
+    agnostic way.
+
+    Oh and did I mention, this is a fun talk, even for us, to “perform”.
+  time: "10:00 - 10:40"
+
+- type: misc
+  title: Coffee break
+  time: "10:40 - 11:00"
+
+- type: talk
+  title: Immutability Matters
+  speaker_name: Ranjeet Singh
+  speaker_twitter:
+  description:
+    The Ruby codebase and standard libraries make heavy use of mutable objects,
+    as does pretty much any mainstream language. Mutable objects are not
+    thread-safe, comparatively harder to maintain and write tests for, and with
+    the resulting tests being slow and brittle. Thus, it becomes very hard to
+    understand applications and libraries written using mutable object states
+    to pass values around and perform operation on those values. Immutability
+    resolves a lot of concurrency issues (race conditions, dirty read/write
+    etc.), and also simplifies the codebase and test cases.
+  speaker_email:
+  time: "11:00 - 11:20"
+
+- type: talk
+  title: Fun with Ruby and Arduino
+  speaker_name: Anmol Agarwal
+  speaker_twitter: anmol1771
+  description:
+    “Internet of things” is the concept of basically connecting any device with
+    an on and off switch to the Internet.  IoT has been possible through
+    devices like Arduino, Raspberry Pi and many more. Although most of the APIs
+    to work with them are available in Ruby, I haven’t seen many projects
+    programmed in Ruby, but C++, Python or JS. I would like to share my
+    approach, resources etc I learned from and show things that are possible. I
+    hope audience would learn new possibilities with Ruby and not have to spent
+    time learning a new language to interact with hardware.
+  speaker_email:
+  time: "11:20 - 12:00"
+
+- type: misc
+  title: Break
+  time: "12:00 - 12:05"
+
+- type: talk
+  title: WAT!! ActiveRecord Callbacks
+  speaker_name: Monika M
+  speaker_twitter: MonikaMhanthapa
+  description:
+    The talk is about the gotchas of ActiveRecord callbacks even in the most
+    common usage patterns and touches upon some possible alternatives to avoid
+    each of these pitfalls.
+
+    As Rails developers most of us would have inevitably have run into
+    callbacks. This is something easy to get started with but is even easier to
+    lead you into unexpected behaviour in production. Also, due to their
+    unobtrusive nature they can become forgotten landmines.
+
+    Structured in the popular and fun “WAT” style, the focus is mostly on
+    beginner to intermediate levels, others might find one or two anecdotes
+    surprising.
+
+  speaker_email:
+  time: "12:05 - 12:25"
+
+- type: misc
+  title: Lightning Talks
+  time: "12:30 - 13:00"
+
+- type: misc
+  title: Lunch
+  time: "13:00 - 14:00"
+
+- type: talk
+  title: Keynote
+  speaker_name: Paolo Perrotta
+  speaker_twitter: nusco
+  description:
+  speaker_email:
+  time: "14:00 - 14:40"
+
+- type: talk
+  title: Capacity planning with Capybara and RabbitMQ
+  speaker_name: Vijayanand Nandam
+  speaker_twitter: vijayanandam1
+  description:
+    The number of users a web app can handle simultaneously is tricky to
+    determine. Often we go by intuition and choose a deployment architecture
+    which is either insufficient or oversized. Most web bench marking tools
+    like ab are designed to benchmark the web server and provide unreliable
+    information as the test scenario is far off from real world usage.
+    Capybara, the defacto acceptance testing framework in rails world combined
+    with rabbitmq can help us in determining bottlenecks and choosing the right
+    deployment architecture.The number of users a web app can handle
+    simultaneously is tricky to determine. Often we go by intuition and choose
+    a deployment architecture which is either insufficient or oversized. Most
+    web bench marking tools like ab are designed to benchmark the web server
+    and provide unreliable information as the test scenario is far off from
+    real world usage. Capybara, the defacto acceptance testing framework in
+    rails world combined with rabbitmq can help us in determining bottlenecks
+    and choosing the right deployment architecture.
+  speaker_email:
+  time: "14:40 - 15:00"
+
+- type: misc
+  title: Coffee break
+  time: "15:00 - 15:05"
+
+- type: talk
+  title: Resilient by Design
+  speaker_name: Smit Shah
+  speaker_twitter: Who828
+  description:
+    Modern distributed systems have aggressive requirements around uptime and
+    performance, they need to face harsh realities such as sudden rush of
+    visitors, network issues, tangled databases and other unforeseen bugs.
+
+    With so many moving parts involved even in the simplest of services, it
+    becomes mandatory to adopt defensive patterns which would guard against
+    some of these problems and identify anti-patterns before they trigger
+    cascading failures across systems.
+
+    This talk is for all those developers who hate getting a oncall at 4 AM in
+    the morning
+  speaker_email:
+  time: "15:05 - 15:45"
+
+- type: talk
+  title: Rubinius — Ruby implemented with Ruby
+  speaker_name: Akanksha Agarwal, Sana
+  speaker_twitter:
+  description:
+    Rubinius is an alternative Ruby language implementation. We would be giving
+    a brief overview of Rubinius Internals and would be majorly talking about
+    the Heap Dump interface that Rubinius provides for analysis of memory
+    dumps.
+  speaker_email:
+  time: "15:45 - 16:05"
+
+- type: misc
+  title: Coffee break
+  time: "16:05 - 16:20"
+
+- type: misc
+  title: Panel Discussion
+  time: "16:20 - 17:20"
+
+- type: talk
+  title: Keynote
+  speaker_name: Hemant Kumar
+  speaker_twitter: gnufied
+  description:
+  speaker_email:
+  time: "17:20 - 18:00"
+
+- type: misc
+  title: Closing Note
+  time: "18:00 - 18:15"
