@@ -28,12 +28,12 @@ permalink: /program/index.html
               <h5>
                 {% for speaker in item.speakers %}
                   {% if speaker.twitter %}
-                    <a href="https://twitter.com/{{speaker.twitter}}" target="_blank">
+                    <a href="https://twitter.com/{{speaker.twitter}}" target="_blank" class='speaker-name'>
                       {{ speaker.name }}
                     </a>
                   {% else %}
                     {{ speaker.name }}
-                  {% endif %}&nbsp;
+                  {% endif %}
                 {% endfor %}
               </h5>
               {% if item.title != "Keynote" %}
