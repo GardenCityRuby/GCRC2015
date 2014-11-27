@@ -147,6 +147,13 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .cbp_desc {
+    p {
+      font-size: 0.9em;
+    }
+  }
+
   .cbp_tmtimeline > li .cbp_tmtime span:last-child {
     font-size: 1.8em;
   }
