@@ -77,9 +77,10 @@ section {
 
   .nav-logo {
     width: 60px;
-    -webkit-transition: width .3s ease-in-out;
-    -moz-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
   }
 }
 
@@ -99,7 +100,10 @@ section {
 .desktop-thin-nav {
   min-height: 30px;
   .navbar-brand-logo {
-    .nav-logo { width: 25px; }
+    .nav-logo {
+      width: 25px;
+      height: auto;
+    }
   }
   .desktop-navbar-nav {
     li {
