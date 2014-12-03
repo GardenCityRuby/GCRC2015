@@ -244,7 +244,23 @@ section {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
+    height: 200px;
+
+    /* make sponsor logos vertically center aligned */
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -0.25em;
+    }
+
+    a {
+      display: inline-block;
+      vertical-align: middle;
+    }
   }
+
 
   h4 {
     margin-top: 40px;
