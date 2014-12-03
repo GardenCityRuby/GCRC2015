@@ -14,7 +14,6 @@
   speakers:
   - name: Konstantin Haase
     twitter: konstantinhaase
-    email: konstantin.haase@gmail.com
 - type: talk
   title: ActiveRecord can't do it? Arel can!
   description: |-
@@ -30,10 +29,8 @@
   speakers:
   - name: Vipul A
     twitter: vipulnsward
-    email: vipulnsward@gmail.com
   - name: Prathamesh S
     twitter: _cha1tanya
-    email: csonpatki@gmail.com
 - type: misc
   title: Coffee break
   description:
@@ -52,7 +49,6 @@
   speakers:
   - name: Ranjeet Singh
     twitter: raeoks
-    email: ranjeetxsingh@gmail.com
 - type: talk
   title: Fun with Ruby and Arduino
   description: "“Internet of things” is the concept of basically connecting any device
@@ -67,7 +63,6 @@
   speakers:
   - name: Anmol Agarwal
     twitter: anmol1771
-    email:
 - type: misc
   title: Break
   description:
@@ -82,7 +77,6 @@
   speakers:
   - name: Monika M
     twitter: MonikaMhanthapa
-    email:
 - type: misc
   title: Lightning Talks
   description:
@@ -106,7 +100,6 @@
   speakers:
   - name: Paolo Perrotta
     twitter: nusco
-    email:
 - type: talk
   title: Capacity planning with Capybara and RabbitMQ
   description: >
@@ -122,7 +115,6 @@
   speakers:
   - name: Vijayanand Nandam
     twitter: vijayanandam1
-    email:
 - type: misc
   title: Coffee break
   description:
@@ -137,7 +129,6 @@
   speakers:
   - name: Smit Shah
     twitter: Who828
-    email:
 - type: talk
   title: Rubinius — Ruby implemented with Ruby
   description: Rubinius is an alternative Ruby language implementation. We would be
@@ -147,10 +138,8 @@
   speakers:
   - name: Akanksha Agarwal
     twitter: AkankshaHA
-    email:
   - name: Sana Khan
     twitter: sanakhan_libre
-    email:
 - type: misc
   title: Coffee break
   description:
@@ -166,7 +155,6 @@
   speakers:
   - name: Hemant Kumar
     twitter: gnufied
-    email:
 - type: misc
   title: Closing Note
   description:

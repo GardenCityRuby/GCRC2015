@@ -5,7 +5,6 @@
   title: Refactoring Rails
   speaker_name: Marshall Yount
   speaker_twitter: marshallyount
-  speaker_email:
   description:
     Put your ActiveRecord Models on a diet! Talk a walk with us through some
     common code smells, along with tips on how to resolve them.
@@ -24,7 +23,6 @@
   title: Profiling Ruby applications
   speaker_name: Yuva Kumar
   speaker_twitter: iffyuva
-  speaker_email:
   description:
     Since the release of ruby 2.1, the language has improved in many areas.
 
