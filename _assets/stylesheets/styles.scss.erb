@@ -112,6 +112,18 @@ section {
       }
     }
   }
+
+  @media(max-width: 768px) {
+    max-height: 45px;
+    .navbar-toggle {
+      margin-top: 5.5px;
+    }
+
+    .nav-logo {
+      width: 30px;
+      height: auto;
+    }
+  }
 }
 
 .navbar-nav {
@@ -404,6 +416,12 @@ footer {
   }
 
   h3 { line-height: 1.5; }
+
+  @media(max-width: 320px) {
+    .text-left-small h4 {
+      text-align: left;
+    }
+  }
 }
 
 .persistent-anchor {
@@ -411,3 +429,5 @@ footer {
     color: $brand-primary;
   }
 }
+
+

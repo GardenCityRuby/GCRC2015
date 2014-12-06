@@ -6,28 +6,12 @@ permalink: /program/index.html
 <a class='anchor' id='program'></a>
 <section class="program">
   <div class="container">
-    <div class="col-lg-10 col-lg-offset-1">
+    <div class="col-xs-12 col-lg-10 col-lg-offset-1">
       <h2 class="section-title">Program</h2>
       <div class="program-container">
 
         <a class='anchor' id='talks'></a>
-        <div class="row">
-          <div class="col-xs-5 text-right">
-            <h4>Talks</h4>
-          </div>
-          <div class="col-xs-2 text-center">
-            <h4>|</h4>
-          </div>
-          <div class="col-xs-5">
-            <h4>
-              <em>
-                <a href="#workshops" class="persistent-anchor">
-                  Workshops
-                </a>
-              </em>
-            </h4>
-          </div>
-        </div>
+        {% include schedule_tab_switcher_talks.html %}
 
         <!-- Talks -->
         <ul class="cbp_tmtimeline">
@@ -66,23 +50,7 @@ permalink: /program/index.html
         </ul>
 
         <a class='anchor' id='workshops'></a>
-        <div class="row">
-          <div class="col-xs-5 text-right">
-            <h4>
-              <em>
-                <a href="#talks" class="persitent-anchor">
-                  Talks
-                </a>
-              </em>
-            </h4>
-          </div>
-          <div class="col-xs-2 text-center">
-            <h4>|</h4>
-          </div>
-          <div class="col-xs-5">
-            <h4>Workshops</h4>
-          </div>
-        </div>
+        {% include schedule_tab_switcher_workshops.html %}
 
         <!-- Workshop -->
         <ul class="cbp_tmtimeline">
