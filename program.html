@@ -10,8 +10,26 @@ permalink: /program/index.html
       <h2 class="section-title">Program</h2>
       <div class="program-container">
 
+        <a class='anchor' id='talks'></a>
+        <div class="row">
+          <div class="col-xs-5 text-right">
+            <h4>Talks</h4>
+          </div>
+          <div class="col-xs-2 text-center">
+            <h4>|</h4>
+          </div>
+          <div class="col-xs-5">
+            <h4>
+              <em>
+                <a href="#workshops" class="persistent-anchor">
+                  Workshops
+                </a>
+              </em>
+            </h4>
+          </div>
+        </div>
+
         <!-- Talks -->
-        <h4 class="sub-headline">Talks</h4>
         <ul class="cbp_tmtimeline">
           {% for item in site.data.program %}
           <li>
@@ -47,8 +65,26 @@ permalink: /program/index.html
           {% endfor %}
         </ul>
 
+        <a class='anchor' id='workshops'></a>
+        <div class="row">
+          <div class="col-xs-5 text-right">
+            <h4>
+              <em>
+                <a href="#talks" class="persitent-anchor">
+                  Talks
+                </a>
+              </em>
+            </h4>
+          </div>
+          <div class="col-xs-2 text-center">
+            <h4>|</h4>
+          </div>
+          <div class="col-xs-5">
+            <h4>Workshops</h4>
+          </div>
+        </div>
+
         <!-- Workshop -->
-        <h4 class="sub-headline">Workshops</h4>
         <ul class="cbp_tmtimeline">
           {% for item in site.data.workshops %}
           <li>
