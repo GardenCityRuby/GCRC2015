@@ -254,6 +254,48 @@ section {
       margin-bottom: 30px;
     }
 
+
+    a {
+      display: inline-block;
+      vertical-align: middle;
+      img { max-width: 200px; }
+    }
+  }
+
+  .gold {
+    margin: 30px auto 50px;
+    text-align: center;
+
+    a{
+      img {
+        max-width: 400px;
+        height: auto;
+      }
+    }
+
+    @media(min-width: 767px) and (max-width: 992px) {
+      a{
+        img {
+        max-width: 300px;
+      }
+      }
+    }
+
+    @media(max-width: 768px) {
+      a {
+        img {
+        max-width: 100%;
+        }
+      }
+    }
+  }
+
+  h4 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .v-align-center {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -267,18 +309,6 @@ section {
       vertical-align: middle;
       margin-right: -0.25em;
     }
-
-    a {
-      display: inline-block;
-      vertical-align: middle;
-      img { max-width: 200px; }
-    }
-  }
-
-
-  h4 {
-    margin-top: 40px;
-    margin-bottom: 0px;
   }
 }
 
