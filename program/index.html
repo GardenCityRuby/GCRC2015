@@ -22,7 +22,7 @@
   <meta name="twitter:image:src" content="http://www.gardencityruby.org/images/gcrc_2015_details.jpg">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="/GCRC2015/assets/styles-7b063d6f1a6900bdbc3e39fd0d337459.css">
+  <link rel="stylesheet" href="/GCRC2015/assets/styles-c74cb61438b977e6dcc2a498bf7eeea0.css">
 
   <!-- Bootstrap -->
   <meta charset="utf-8">
@@ -58,7 +58,7 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a class="navbar-brand visible-xs-block" href="index.html">
+      <a class="navbar-brand visible-xs-block" href="/">
         <img src="/GCRC2015/assets/gcrc-ba2f351803e8e707f81a13b302ae8534.png" data-at2x="/GCRC2015/assets/gcrc@2x-ea89981e055c93bba980f5512baf61b2.png" alt='GCRC' class='nav-logo' />
       </a>
     </div>
@@ -68,10 +68,16 @@
     <div class="visible-xs-block">
       <div id="gcrc-navbar-mobile" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/program/index.html">Schedule</a></li>
-          <li><a href="/index.html#speakers">Speakers</a></li>
-          <li><a href="/index.html#venue">Venue</a></li>
-          <li><a href="/index.html#sponsors">Sponsors</a></li>
+          <li>
+            <a href="/open-source-love">
+              GCRC <span class='love-icon'>♥</span> OSS
+            </a>
+          </li>
+          <li><a href="/program/">Schedule</a></li>
+          <li><a href="/#speakers">Speakers</a></li>
+          <li><a href="/#venue">Venue</a></li>
+          <li><a href="/sponsors/">Sponsors</a></li>
+          <li><a href="http://gcrc15.doattend.com">Buy a Ticket</a></li>
         </ul>
       </div><!--/.navbar-collapse -->
     </div>
@@ -79,27 +85,35 @@
     <!-- desktop nav -->
     <div class="visible-sm-block visible-md-block visible-lg-block desktop-nav">
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
           <div class="row">
             <ul class="nav navbar-nav desktop-navbar-nav">
-              <li class="col-sm-2">
-                <a href="/program/index.html">Schedule</a>
+              <li class='col-sm-seven'><a href="/open-source-love">
+                  GCRC <span class='love-icon'>♥</span> OSS
+                </a></li>
+              <li class="col-sm-seven">
+                <a href="/program/">Schedule</a>
               </li>
-              <li class="col-sm-2">
-                <a href="/index.html#speakers">Speakers</a>
+              <li class="col-sm-seven">
+                <a href="/#speakers">Speakers</a>
               </li>
-              <li class="col-sm-4">
+              <li class="col-sm-seven">
                 <div class="navbar-brand-logo">
-                  <a href="/index.html#">
+                  <a href="/">
                     <img src="/GCRC2015/assets/gcrc-ba2f351803e8e707f81a13b302ae8534.png" data-at2x="/GCRC2015/assets/gcrc@2x-ea89981e055c93bba980f5512baf61b2.png" alt='GCRC' class='nav-logo' />
                   </a>
                 </div>
               </li>
-              <li class="col-sm-2">
-                <a href="/index.html#venue">Venue</a>
+              <li class="col-sm-seven">
+                <a href="/#venue">Venue</a>
               </li>
-              <li class="col-sm-2">
-                <a href="/index.html#sponsors">Sponsors</a>
+              <li class="col-sm-seven">
+                <a href="/sponsors/">Sponsors</a>
+              </li>
+              <li class='col-sm-seven'>
+                <a href="http://gcrc15.doattend.com" class="brand-red">
+                  Buy a Ticket
+                </a>
               </li>
             </ul>
           </div>
@@ -113,12 +127,49 @@
     <a class='anchor' id='program'></a>
 <section class="program">
   <div class="container">
-    <div class="col-lg-10 col-lg-offset-1">
+    <div class="col-xs-12 col-lg-10 col-lg-offset-1">
       <h2 class="section-title">Program</h2>
       <div class="program-container">
 
+        <a class='anchor' id='talks'></a>
+        <div class="row">
+  <div class="visible-xs-block">
+    <div class="col-xs-5 text-right text-left-small">
+      <h4>Talks</h4>
+    </div>
+    <div class="col-xs-5 col-xs-offset-1">
+      <h4>
+        <em>
+          <a href="#workshops" class="persistent-anchor">
+            Workshops
+          </a>
+        </em>
+      </h4>
+    </div>
+  </div>
+
+  <div class="hidden-xs">
+    <div class="col-sm-5 text-right">
+      <h4>Talks</h4>
+    </div>
+    <div class="col-sm-2 text-center">
+      <h4>|</h4>
+    </div>
+    <div class="col-sm-5">
+      <h4>
+        <em>
+          <a href="#workshops" class="persistent-anchor">
+            Workshops
+          </a>
+        </em>
+      </h4>
+    </div>
+  </div>
+</div>
+
+
+
         <!-- Talks -->
-        <h4 class="sub-headline">Talks</h4>
         <ul class="cbp_tmtimeline">
           
           <li>
@@ -142,7 +193,7 @@
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>09:15 - 09:55</span></time>
             
-            <a href="https://twitter.com/konstantinhaase">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
@@ -152,9 +203,11 @@
               
               <h5>
                 
-                <a href="https://twitter.com/konstantinhaase">
-                  Konstantin Haase
-                </a>
+                  
+                    <a href="https://twitter.com/konstantinhaase" target="_blank" class='speaker-name'>
+                      Konstantin Haase
+                    </a>
+                  
                 
               </h5>
               
@@ -165,7 +218,7 @@
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>10:00 - 10:40</span></time>
             
-            <a href="https://twitter.com/vipulnsward">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
@@ -175,17 +228,29 @@
               
               <h5>
                 
-                <a href="https://twitter.com/vipulnsward">
-                  Vipul & Prathamesh
-                </a>
+                  
+                    <a href="https://twitter.com/vipulnsward" target="_blank" class='speaker-name'>
+                      Vipul A
+                    </a>
+                  
+                
+                  
+                    <a href="https://twitter.com/_cha1tanya" target="_blank" class='speaker-name'>
+                      Prathamesh S
+                    </a>
+                  
                 
               </h5>
               
               <div class="cbp_desc">
-                <p> ActiveRecord can't do it? Arel can!  Active Record is awesome. But how does ActiveRecord handle generating complex SQL queries? Under the hood it's handled by Arel. Most of the time, Rails developers don't have to know about how Arel works.
-But sometimes Active Record can't satisfy our needs. Also Arel has many strengths not exposed through Active Record.
-Let's experiment with Arel directly and wield great SQL power in database agnostic way.
-Oh and did I mention, this is a fun talk, even for us, to “perform”. </p>
+                <p> ActiveRecord can't do it? Arel can!  Active Record is awesome. But how does
+ActiveRecord handle generating complex SQL queries? Under the hood it's
+handled by Arel. Most of the time, Rails developers don't have to know
+about how Arel works.  But sometimes Active Record can't satisfy our needs.
+Also Arel has many strengths not exposed through Active Record.  Let's
+experiment with Arel directly and wield great SQL power in database
+agnostic way.  Oh and did I mention, this is a fun talk, even for us, to
+“perform”. </p>
               </div>
               
               
@@ -214,7 +279,11 @@ Oh and did I mention, this is a fun talk, even for us, to “perform”. </p>
               
               <h5>
                 
-                Ranjeet Singh
+                  
+                    <a href="https://twitter.com/raeoks" target="_blank" class='speaker-name'>
+                      Ranjeet Singh
+                    </a>
+                  
                 
               </h5>
               
@@ -229,19 +298,21 @@ Oh and did I mention, this is a fun talk, even for us, to “perform”. </p>
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>11:20 - 12:00</span></time>
             
-            <a href="https://twitter.com/anmol1771">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
             
             <div class="cbp_tmlabel">
-              <h3>Immutability Matters</h3>
+              <h3>Fun with Ruby and Arduino</h3>
               
               <h5>
                 
-                <a href="https://twitter.com/anmol1771">
-                  Anmol Agarwal
-                </a>
+                  
+                    <a href="https://twitter.com/anmol1771" target="_blank" class='speaker-name'>
+                      Anmol Agarwal
+                    </a>
+                  
                 
               </h5>
               
@@ -257,7 +328,7 @@ Oh and did I mention, this is a fun talk, even for us, to “perform”. </p>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>12:00 - 12:05</span></time>
             
             <div class="cbp_tmlabel">
-              <h3>Coffee break</h3>
+              <h3>Break</h3>
               
             </div>
           </li>
@@ -265,7 +336,7 @@ Oh and did I mention, this is a fun talk, even for us, to “perform”. </p>
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>12:05 - 12:25</span></time>
             
-            <a href="https://twitter.com/MonikaMhanthapa">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
@@ -275,9 +346,11 @@ Oh and did I mention, this is a fun talk, even for us, to “perform”. </p>
               
               <h5>
                 
-                <a href="https://twitter.com/MonikaMhanthapa">
-                  Monika M
-                </a>
+                  
+                    <a href="https://twitter.com/MonikaMhanthapa" target="_blank" class='speaker-name'>
+                      Monika M
+                    </a>
+                  
                 
               </h5>
               
@@ -312,21 +385,29 @@ Structured in the popular and fun “WAT” style, the focus is mostly on beginn
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>14:00 - 14:40</span></time>
             
-            <a href="https://twitter.com/nusco">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
             
             <div class="cbp_tmlabel">
-              <h3>Keynote</h3>
+              <h3>Keynote: Wrapping Your Head Around Git
+</h3>
               
               <h5>
                 
-                <a href="https://twitter.com/nusco">
-                  Paolo Perrotta
-                </a>
+                  
+                    <a href="https://twitter.com/nusco" target="_blank" class='speaker-name'>
+                      Paolo Perrotta
+                    </a>
+                  
                 
               </h5>
+              
+              <div class="cbp_desc">
+                <p> A confession: I used Git for months without really understanding what was going on. I knew all the basic commands, but I still got stranded when something went wrong. Why did my rebase fail? How did I manage to mess up the remote? <br/><br/> Then I found the key to Git: the unfamiliar .git directory. That was my lightbulb moment. Once I understood the underlying model, everything about Git clicked into place. Things that used to be baffling and complicated suddenly looked simple and elegant. <br/><br/> Let me share this lightbulb with you. It will take you less than an hour to wrap your head around Git.
+ </p>
+              </div>
               
               
             </div>
@@ -335,7 +416,7 @@ Structured in the popular and fun “WAT” style, the focus is mostly on beginn
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>14:40 - 15:00</span></time>
             
-            <a href="https://twitter.com/vijayanandam1">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
@@ -345,14 +426,17 @@ Structured in the popular and fun “WAT” style, the focus is mostly on beginn
               
               <h5>
                 
-                <a href="https://twitter.com/vijayanandam1">
-                  Vijayanand Nandam
-                </a>
+                  
+                    <a href="https://twitter.com/vijayanandam1" target="_blank" class='speaker-name'>
+                      Vijayanand Nandam
+                    </a>
+                  
                 
               </h5>
               
               <div class="cbp_desc">
-                <p> The number of users a web app can handle simultaneously is tricky to determine. Often we go by intuition and choose a deployment architecture which is either insufficient or oversized. Most web bench marking tools like ab are designed to benchmark the web server and provide unreliable information as the test scenario is far off from real world usage. Capybara, the defacto acceptance testing framework in rails world combined with rabbitmq can help us in determining bottlenecks and choosing the right deployment architecture.The number of users a web app can handle simultaneously is tricky to determine. Often we go by intuition and choose a deployment architecture which is either insufficient or oversized. Most web bench marking tools like ab are designed to benchmark the web server and provide unreliable information as the test scenario is far off from real world usage. Capybara, the defacto acceptance testing framework in rails world combined with rabbitmq can help us in determining bottlenecks and choosing the right deployment architecture. </p>
+                <p> The number of users a web app can handle simultaneously is tricky to determine. Often we go by intuition and choose a deployment architecture which is either insufficient or oversized. Most web bench marking tools, like apache bench, are designed to benchmark the web server, and end-up provide unreliable information as the test scenario is far off from real world usage.  Capybara, the defacto acceptance testing framework in rails world, combined with rabbitmq, can help us in determining bottlenecks and choosing the right deployment architecture.
+ </p>
               </div>
               
               
@@ -360,7 +444,7 @@ Structured in the popular and fun “WAT” style, the focus is mostly on beginn
           </li>
           
           <li>
-            <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>15:40 - 15:05</span></time>
+            <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>15:00 - 15:05</span></time>
             
             <div class="cbp_tmlabel">
               <h3>Coffee break</h3>
@@ -371,7 +455,7 @@ Structured in the popular and fun “WAT” style, the focus is mostly on beginn
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>15:05 - 15:45</span></time>
             
-            <a href="https://twitter.com/Who828">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
@@ -381,9 +465,11 @@ Structured in the popular and fun “WAT” style, the focus is mostly on beginn
               
               <h5>
                 
-                <a href="https://twitter.com/Who828">
-                  Smit Shah
-                </a>
+                  
+                    <a href="https://twitter.com/Who828" target="_blank" class='speaker-name'>
+                      Smit Shah
+                    </a>
+                  
                 
               </h5>
               
@@ -410,7 +496,17 @@ This talk is for all those developers who hate getting a oncall at 4 AM in the m
               
               <h5>
                 
-                Akanksha Agarwal, Sana
+                  
+                    <a href="https://twitter.com/AkankshaHA" target="_blank" class='speaker-name'>
+                      Akanksha Agarwal
+                    </a>
+                  
+                
+                  
+                    <a href="https://twitter.com/sanakhan_libre" target="_blank" class='speaker-name'>
+                      Sana Khan
+                    </a>
+                  
                 
               </h5>
               
@@ -443,7 +539,7 @@ This talk is for all those developers who hate getting a oncall at 4 AM in the m
           <li>
             <time class="cbp_tmtime" datetime="2015-01-10"><span>10/01/15</span> <span>17:20 - 18:00</span></time>
             
-            <a href="https://twitter.com/gnufied">
+            <a href="https://twitter.com/">
               <div class="cbp_tmicon">
               </div>
             </a>
@@ -453,9 +549,11 @@ This talk is for all those developers who hate getting a oncall at 4 AM in the m
               
               <h5>
                 
-                <a href="https://twitter.com/gnufied">
-                  Hemant Kumar
-                </a>
+                  
+                    <a href="https://twitter.com/gnufied" target="_blank" class='speaker-name'>
+                      Hemant Kumar
+                    </a>
+                  
                 
               </h5>
               
@@ -474,8 +572,49 @@ This talk is for all those developers who hate getting a oncall at 4 AM in the m
           
         </ul>
 
+        <a class='anchor' id='workshops'></a>
+        
+<div class="row">
+  <div class="visible-xs-block">
+    <div class="col-xs-5 text-right text-left-small">
+      <h4>
+        <em>
+          <a href="#talks" class="persistent-anchor">
+            Talks
+          </a>
+        </em>
+      </h4>
+    </div>
+    <div class="col-xs-5 col-xs-offset-1">
+      <h4>
+        Workshops
+      </h4>
+    </div>
+  </div>
+
+  <div class="hidden-xs">
+    <div class="col-sm-5 text-right">
+      <h4>
+        <em>
+          <a href="#talks" class="persistent-anchor">
+            Talks
+          </a>
+        </em>
+      </h4>
+    </div>
+    <div class="col-sm-2 text-center">
+      <h4>|</h4>
+    </div>
+    <div class="col-sm-5">
+      <h4>
+        Workshops
+      </h4>
+    </div>
+  </div>
+</div>
+
+
         <!-- Workshop -->
-        <h4 class="sub-headline">Workshops</h4>
         <ul class="cbp_tmtimeline">
           
           <li>
@@ -570,16 +709,16 @@ Compared to other languages like Java, C or c++, Ruby does not have a beginner f
         <div class="row">
           <div class="col-xs-12 col-sm-6">
             <ul class="list-unstyled">
-              <li>Emil Soman</li>
-              <li>Kashyap Kondamudi</li>
-              <li>Leena SN</li>
+              <li><a href="http://twitter.com/emilsoman" target="_blank">Emil Soman</a></li>
+              <li><a href="http://twitter.com/kgrz" target="_blank">Kashyap Kondamudi</a></li>
+              <li><a href="http://twitter.com/leenasn" target="_blank">Leena SN</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-6">
             <ul class="list-unstyled">
-              <li>Satish Kumar Perala</li>
-              <li>Swanand Pagnis</li>
-              <li>Tejas Dinkar</li>
+              <li><a href="http://twitter.com/satishperala" target="_blank">Satish Kumar Perala</a></li>
+              <li><a href="http://twitter.com/_swanand" target="_blank">Swanand Pagnis</a></li>
+              <li><a href="http://twitter.com/tdinkar" target="_blank">Tejas Dinkar</a></li>
             </ul>
           </div>
         </div>
