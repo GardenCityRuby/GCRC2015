@@ -23,3 +23,26 @@ assets:
     - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
+
+links:
+  schedule:
+    name: Schedule
+    url: /program
+  speakers:
+    name: Speakers
+    url: /#speakers
+  venue:
+    name: Venue
+    url: /#venue
+  sponsors:
+    name: Sponsors
+    url: /#sponsors
+  oss:
+    name: GCRC <span class='brand-red'>♥</span> OSS
+    url: /open-source-love
+  code:
+    name: Code of Conduct
+    url: /code-of-conduct
+  ticket:
+    name: Buy a Ticket
+    url: 'http://gcrc.doattend.com'

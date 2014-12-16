@@ -17,16 +17,12 @@
     <div class="visible-xs-block">
       <div id="gcrc-navbar-mobile" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/program/">Schedule</a></li>
-          <li><a href="/#speakers">Speakers</a></li>
-          <li><a href="/#venue">Venue</a></li>
-          <li><a href="/sponsors/">Sponsors</a></li>
-          <li>
-            <a href="/open-source-love">
-              GCRC <span class='love-icon'>♥</span> OSS
-            </a>
-          </li>
-          <li><a href="http://gcrc15.doattend.com">Buy a Ticket</a></li>
+          <li><a href="{{ site.links.schedule.url }}">{{ site.links.schedule.name }}</a></li>
+          <li><a href="{{ site.links.speakers.url }}">{{ site.links.speakers.name }}</a></li>
+          <li><a href="{{ site.links.venue.url }}">{{ site.links.venue.name }}</a></li>
+          <li><a href="{{ site.links.sponsors.url }}">{{ site.links.sponsors.name }}</a></li>
+          <li><a href="{{ site.links.oss.url }}">{{ site.links.oss.name }}</a></li>
+          <li><a href="{{ site.links.ticket.url }}">{{ site.links.ticket.name }}</a></li>
         </ul>
       </div><!--/.navbar-collapse -->
     </div>
@@ -38,13 +34,13 @@
           <div class="row">
             <ul class="nav navbar-nav desktop-navbar-nav">
               <li class="col-sm-seven">
-                <a href="/program/">Schedule</a>
+                <a href="{{ site.links.schedule.url }}">{{ site.links.schedule.name }}</a>
               </li>
               <li class="col-sm-seven">
-                <a href="/#speakers">Speakers</a>
+                <a href="{{ site.links.speakers.url }}">{{ site.links.speakers.name }}</a>
               </li>
               <li class="col-sm-seven">
-                <a href="/#venue">Venue</a>
+                <a href="{{ site.links.venue.url }}">{{ site.links.venue.name }}</a>
               </li>
 
               <li class="col-sm-seven">
@@ -55,15 +51,17 @@
                 </div>
               </li>
               <li class="col-sm-seven">
-                <a href="/sponsors/">Sponsors</a>
+                <a href="{{ site.links.sponsors.url }}">{{ site.links.sponsors.name }}</a>
               </li>
-              <li class='col-sm-seven'><a href="/open-source-love">
-                  GCRC <span class='brand-red'>♥</span> OSS
-                </a></li>
+              <li class='col-sm-seven'>
+                <a href="{{ site.links.oss.url }}">
+                  {{ site.links.oss.name }}
+                </a>
+              </li>
 
               <li class='col-sm-seven'>
-                <a href="http://gcrc15.doattend.com">
-                  Buy a Ticket
+                <a href="{{ site.links.ticket.url }}">
+                  {{ site.links.ticket.name }}
                 </a>
               </li>
             </ul>
