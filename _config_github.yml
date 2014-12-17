@@ -2,23 +2,3 @@ url:              http://gardencityruby.github.io/GCRC2015
 assets:
   cache: true
   baseurl: /GCRC2015/assets/
-
-links:
-  schedule:
-    name: Schedule
-    url: /GCRC2015/program
-  oss:
-    name: GCRC ♥ OSS
-    url: /GCRC2015/open-source-love
-  code:
-    name: Code of Conduct
-    url: /GCRC2015/code-of-conduct
-  speakers:
-    name: Speakers
-    url: /GCRC2015/#speakers
-  venue:
-    name: Venue
-    url: /GCRC2015/#venue
-  sponsors:
-    name: Sponsors
-    url: /GCRC2015/#sponsors
