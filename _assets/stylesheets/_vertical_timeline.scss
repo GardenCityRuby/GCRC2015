@@ -15,8 +15,8 @@
   bottom: 0;
   width: 10px;
   background: $brand-primary;
-  left: 20%;
-  margin-left: -10px;
+  left: 22%;
+  margin-left: -5px;
 }
 
 .cbp_tmtimeline > li {
@@ -27,7 +27,7 @@
 .cbp_tmtimeline > li .cbp_tmtime {
   display: block;
   position: absolute;
-  left: -50px;
+  left: 5px;
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span {
@@ -51,7 +51,7 @@
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
-  margin: 0 0 35px 27%;
+  margin: 0 0 35px 25%;
   background: lighten($gray, 2%);
   color: #333;
   padding: 1.2em;
