@@ -153,8 +153,10 @@
   description:
   time: 17:20 - 18:00
   speakers:
-  - name: Hemant Kumar
-    twitter: gnufied
+  - name: Sidu Ponnappa
+    twitter: ponnappa
+  - name:  Niranjan Paranjape
+    twitter: niranjan_p
 - type: misc
   title: Closing Note
   description:
