@@ -95,7 +95,10 @@ section {
   height: 45px;
   padding-top: 4px;
 
-  .nav-logo { width: 45px; }
+  .nav-logo {
+    width: 45px;
+    height: auto;
+  }
 }
 
 .desktop-thin-nav {
@@ -142,7 +145,7 @@ section {
       -webkit-transition: padding .3s ease-in-out;
       -moz-transition: padding .3s ease-in-out;
       transition: padding .3s ease-in-out;
-      padding: 15px 0px;
+      padding: 24px 0px;
     }
 
   }
@@ -172,6 +175,15 @@ section {
   margin-top: 0;
 
   .jumbotron {
+
+    h1 {
+      font-size: 6.5em;
+
+      @media(max-width: 768px) {
+        font-size: 3.3em;
+      }
+    }
+
     padding: 100px 0 40px;
     background: url(<%= asset_path 'park.png' %>) no-repeat;
     min-height: 400px;
@@ -504,4 +516,8 @@ footer {
 
 .love-icon {
   color: rgb(236, 27, 45);
+}
+
+.twitter-hashtag, .twitter-logo {
+  margin-top: 20px;
 }
