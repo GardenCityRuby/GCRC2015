@@ -272,7 +272,11 @@ section {
     a {
       display: inline-block;
       vertical-align: middle;
-      img { max-width: 200px; }
+
+      img {
+        max-width: 100px;
+        height: auto;
+      }
     }
   }
 
@@ -311,9 +315,9 @@ section {
 
   .v-align-center {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 170px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100px;
 
     /* make sponsor logos vertically center aligned */
     &:before {
@@ -322,6 +326,11 @@ section {
       height: 100%;
       vertical-align: middle;
       margin-right: -0.25em;
+    }
+
+    @media(max-width: 600px) {
+      margin-bottom: 20px;
+      margin-top: 20px;
     }
   }
 }
@@ -520,4 +529,26 @@ footer {
 
 .twitter-hashtag, .twitter-logo {
   margin-top: 20px;
+}
+
+// Hide on screens below 600px
+.hide-below-600 {
+  @media(max-width: 600px) {
+    display: none;
+  }
+
+  @media(min-width: 600px) {
+    display: block;
+  }
+}
+
+// Show on screens above 600px
+.show-above-600 {
+  @media(min-width: 600px) {
+    display: none;
+  }
+
+  @media(max-width: 600px) {
+    display: block;
+  }
 }
