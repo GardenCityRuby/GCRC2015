@@ -272,7 +272,16 @@ section {
     a {
       display: inline-block;
       vertical-align: middle;
-      img { max-width: 200px; }
+
+      img {
+        max-width: 150px;
+        height: auto;
+        max-height: 75px;
+
+        @media(max-width: 320px) {
+          max-width: 75px;
+        }
+      }
     }
   }
 
@@ -296,9 +305,10 @@ section {
     }
 
     @media(max-width: 768px) {
+      margin: 30px auto 30px;
       a {
         img {
-        max-width: 100%;
+          max-width: 85%;
         }
       }
     }
@@ -311,9 +321,9 @@ section {
 
   .v-align-center {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
 
     /* make sponsor logos vertically center aligned */
     &:before {
@@ -322,6 +332,15 @@ section {
       height: 100%;
       vertical-align: middle;
       margin-right: -0.25em;
+    }
+
+    @media(max-width: 320px) {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    @media(max-width: 320px) {
+      height: 80px;
     }
   }
 }
@@ -520,4 +539,26 @@ footer {
 
 .twitter-hashtag, .twitter-logo {
   margin-top: 20px;
+}
+
+// Hide on screens below 600px
+.hide-below-600 {
+  @media(max-width: 600px) {
+    display: none;
+  }
+
+  @media(min-width: 600px) {
+    display: block;
+  }
+}
+
+// Show on screens above 600px
+.show-above-600 {
+  @media(min-width: 600px) {
+    display: none;
+  }
+
+  @media(max-width: 600px) {
+    display: block;
+  }
 }
