@@ -230,27 +230,38 @@ section {
 
 .speakers {
   .speaker {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    min-height: 210px;
+
+    @media(max-width: 320px) {
+      min-height: 155px;
+    }
   }
 
   img {
     width: 100%;
     max-width: 200px;
   }
+
   .speaker-name {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 0;
   }
 
   .speaker-twitter {
     margin-top: 0px;
     font-size: 0.9em;
+    margin-bottom: 40px;
   }
 
   @media(max-width: 768px) {
     width: 100%;
     .speaker-name, .speaker-twitter { font-size: 0.8em; }
+  }
+
+  @media(max-width: 320px) {
+    .speaker-name, .speaker-twitter { font-size: 0.6em; }
   }
 }
 
@@ -280,6 +291,11 @@ section {
 
         @media(max-width: 320px) {
           max-width: 75px;
+          max-width: 95px;
+        }
+
+        @media(max-width: 600px) {
+          max-width: 120px;
         }
       }
     }
