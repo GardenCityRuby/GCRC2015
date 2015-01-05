@@ -269,30 +269,32 @@ section {
 }
 
 .sponsors {
+  .sponsors-block {
+    text-align: center;
+  }
+
   .sponsor {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+
     @media(max-width: 768px) {
       height: 100%;
       margin-bottom: 30px;
     }
 
+    @media(max-width: 480px) {
+      width: 120px;
+    }
 
     a {
       display: inline-block;
       vertical-align: middle;
 
       img {
-        max-width: 150px;
+        max-width: 80%;
         height: auto;
         max-height: 75px;
-
-        @media(max-width: 320px) {
-          max-width: 75px;
-          max-width: 95px;
-        }
-
-        @media(max-width: 600px) {
-          max-width: 120px;
-        }
       }
     }
   }
@@ -300,6 +302,7 @@ section {
   .gold {
     margin: 30px auto 50px;
     text-align: center;
+    width: 400px;
 
     a{
       img {
@@ -318,6 +321,7 @@ section {
 
     @media(max-width: 768px) {
       margin: 30px auto 30px;
+      width: 100%;
       a {
         img {
           max-width: 85%;
@@ -333,8 +337,8 @@ section {
 
   .v-align-center {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     height: 80px;
 
     /* make sponsor logos vertically center aligned */
@@ -347,12 +351,9 @@ section {
     }
 
     @media(max-width: 320px) {
+      height: 80px;
       margin-top: 10px;
       margin-bottom: 10px;
-    }
-
-    @media(max-width: 320px) {
-      height: 80px;
     }
   }
 }

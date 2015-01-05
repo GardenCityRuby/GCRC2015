@@ -66,37 +66,34 @@ permalink: /
     <div class="col-lg-10 col-lg-offset-1">
       <h2 class="section-title">Sponsors</h2>
       <h4 class="text-center sub-headline">Gold</h4>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="sponsor gold">
-            <a href="http://www.cybrilla.com/" class="center-block no-style-link" target="_blank">
-              <img alt="Cybrilla" src="{% asset_path sponsors/cybrilla.png %}" data-at2x="{% asset_path sponsors/cybrilla@2x.png %}" />
-            </a>
-          </div>
+
+      <div class="sponsors-block">
+        <div class="sponsor gold">
+          <a href="http://www.cybrilla.com/" class="center-block no-style-link" target="_blank">
+            <img alt="Cybrilla" src="{% asset_path sponsors/cybrilla.png %}" data-at2x="{% asset_path sponsors/cybrilla@2x.png %}" />
+          </a>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <div class="sponsor gold">
-            <a href="http://www.qwinixtech.com/" class="center-block no-style-link" target="_blank">
-              <img alt="Qwinix" src="{% asset_path sponsors/qwinix.png %}" data-at2x="{% asset_path sponsors/qwinix@2x.png %}" />
-            </a>
-          </div>
+        <div class="sponsor gold">
+          <a href="http://www.qwinixtech.com/" class="center-block no-style-link" target="_blank">
+            <img alt="Qwinix" src="{% asset_path sponsors/qwinix.png %}" data-at2x="{% asset_path sponsors/qwinix@2x.png %}" />
+          </a>
         </div>
       </div>
+
       <h4 class="text-center sub-headline">Silver</h4>
       {% include silver_sponsors.html %}
 
       <h4 class="text-center sub-headline">Bronze</h4>
       {% include bronze_sponsors.html %}
 
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-          <div class="sponsor v-align-center">
-            <a href="{{site.url}}/sponsorship_brochure_2015.pdf" target="_blank" class="center-inline-block">
-              + Become a sponsor
-            </a>
-          </div>
+      <div class="sponsors-block">
+        <div class="sponsor v-align-center">
+          <a href="{{site.url}}/sponsorship_brochure_2015.pdf" target="_blank" class="center-inline-block">
+            + Become a sponsor
+          </a>
         </div>
       </div>
+
     </div>
   </div>
 </section>
