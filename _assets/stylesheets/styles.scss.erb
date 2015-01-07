@@ -279,8 +279,9 @@ section {
 
   .sponsor {
     display: inline-block;
-    width: 200px;
+    max-width: 200px;
     text-align: center;
+    margin: 40px 25px;
 
     @media(max-width: 768px) {
       height: 100%;
@@ -288,7 +289,7 @@ section {
     }
 
     @media(max-width: 480px) {
-      width: 120px;
+      max-width: 120px;
     }
 
     a {
@@ -307,6 +308,7 @@ section {
     margin: 30px auto 50px;
     text-align: center;
     width: 400px;
+    max-width: 400px;
 
     a{
       img {
@@ -339,25 +341,7 @@ section {
     margin-bottom: 0px;
   }
 
-  .v-align-center {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    height: 80px;
-
-    /* make sponsor logos vertically center aligned */
-    &:before {
-      content: '';
-      display: inline-block;
-      height: 100%;
-      vertical-align: middle;
-      margin-right: -0.25em;
-    }
-
-    @media(max-width: 320px) {
-      height: auto;
-    }
-  }
+  .v-align-center { }
 }
 
 .center-inline-block { display: inline-block; }
